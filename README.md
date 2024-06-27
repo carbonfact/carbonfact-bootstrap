@@ -14,7 +14,7 @@ Stack used:
 ```
 # install frontend dependencies
 cd apps/front
-pnpm install
+npm install
 ```
 
 ### Backend
@@ -30,13 +30,13 @@ npx prisma db push && npx prisma db seed
 ### Frontend Execution
 
 ```
-cd apps/front && pnpm dev
+cd apps/front && npm run dev
 ```
 
 ### Backend Execution
 
 ```
-cd apps/back && pnpm start:dev
+cd apps/back && npm run start:dev
 ```
 
 Open `localhost:3000`
@@ -47,8 +47,8 @@ Open `localhost:3000`
 
 ### Back Unit testing
 
-`pnpm run test`
+`npm run test`
 
 ### Backend integration testing
 
-`pnpm run test:e2e`
+`npm run test:e2e`
