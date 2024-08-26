@@ -22,7 +22,7 @@ npm install
 ```
 # install backend dependencies
 cd apps/back
-pnpm install
+npm install
 # Install & seed DB
 npx prisma db push && npx prisma db seed
 ```
