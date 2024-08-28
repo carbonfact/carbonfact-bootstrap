@@ -7,7 +7,7 @@ const NavBar = () => (
   <div className={navBarStyle}>
     <Flex direction={'row'}>
       <Link href="/" className={titleStyle}>
-        <Text size="4">Carbon Fact</Text>
+        <Text size="4">Carbonfact</Text>
       </Link>
       <Box grow={'1'}>
         <CreateItemDialog />
