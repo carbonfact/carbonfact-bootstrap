@@ -3,7 +3,6 @@ import { SingleItem } from '@/app/components/Home/SingleItem/SingleItem';
 import { useFetchItems } from '@/app/components/Home/hooks/useFetchItems';
 import { Box } from '@radix-ui/themes';
 import { useEffect, useRef, useState } from 'react';
-import { singleItemContainerStyle } from '../page.css';
 
 type SingleItemProps = {
   params: { itemId: number };
@@ -53,13 +52,12 @@ export default function SingleItemPage({ params }: SingleItemProps) {
     setHasRendered(true);
   }
   return (
-    <Box ref={containerRef} width={'100%'} height={'100%'}>
+    <div ref={containerRef} className='w-full h-full grow'>
       <SingleItem
         width={width - 20}
         height={height}
-        className={singleItemContainerStyle}
         item={item}
       ></SingleItem>
-    </Box>
+    </div>
   );
 }

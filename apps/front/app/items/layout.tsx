@@ -1,5 +1,4 @@
 import ItemNavigationList from '../components/Home/ItemNavigationList/ItemNavigationList';
-import { itemsContainerStyle, navListContainerStyle } from './page.css';
 
 export default function ItemsLayout({
   children,
@@ -7,10 +6,8 @@ export default function ItemsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className={itemsContainerStyle}>
-      <ItemNavigationList
-        className={navListContainerStyle}
-      ></ItemNavigationList>
+    <div className='flex'>
+      <ItemNavigationList />
       {children}
     </div>
   );

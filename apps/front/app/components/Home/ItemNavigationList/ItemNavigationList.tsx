@@ -3,25 +3,19 @@ import { Box } from '@radix-ui/themes';
 import Link from 'next/link';
 import React from 'react';
 import { useFetchItems } from '../hooks/useFetchItems';
-import { itemNavigationLinkStyle } from './ItemNavigationList.css';
-interface ItemNavigationListProps {
-  className?: string;
-}
-const ItemNavigationList: React.FC<ItemNavigationListProps> = ({
-  className,
-}) => {
+
+const ItemNavigationList = () => {
   const { data: items, isLoading } = useFetchItems();
   return (
-    <div className={className}>
+    <div className='w-32 flex flex-col gap-2'>
       {items?.map((anItem) => (
-        <Box key={`itemNavigation-${anItem.id}`}>
-          <Link
-            href={`/items/${anItem.id}`}
-            className={itemNavigationLinkStyle}
-          >
-            <div>{anItem.name}</div>
-          </Link>
-        </Box>
+        <Link
+          key={`itemNavigation-${anItem.id}`}
+          href={`/items/${anItem.id}`}
+          className='hover:bg-blue-500 p-2 rounded-md'
+        >
+          {anItem.name}
+        </Link>
       ))}
     </div>
   );
