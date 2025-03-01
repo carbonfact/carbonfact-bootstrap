@@ -39,7 +39,11 @@ export const SingleItem: React.FC<SingleItemProps> = ({
   const slidersContainerHeight = Math.min(height, 300);
   return (
     <div className='flex items-center' ref={containerRef}>
-      <div className='relative flex'>
+      <div className='relative flex' style={{
+        height: `${slidersContainerHeight}px`,
+        width: `${slidersContainerWidth}px`,
+      }
+      }>
         <BezierCurveComponent
           svgHeight={slidersContainerHeight}
           style={{

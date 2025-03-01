@@ -1,7 +1,6 @@
 'use client';
 import { SingleItem } from '@/app/components/Home/SingleItem/SingleItem';
 import { useFetchItems } from '@/app/components/Home/hooks/useFetchItems';
-import { Box } from '@radix-ui/themes';
 import { useEffect, useRef, useState } from 'react';
 
 type SingleItemProps = {
@@ -52,7 +51,7 @@ export default function SingleItemPage({ params }: SingleItemProps) {
     setHasRendered(true);
   }
   return (
-    <div ref={containerRef} className='w-full h-full grow'>
+    <div ref={containerRef} className='w-full h-full'>
       <SingleItem
         width={width - 20}
         height={height}
