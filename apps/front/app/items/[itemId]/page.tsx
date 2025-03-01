@@ -1,11 +1,9 @@
 'use client';
 import { SingleItem } from '@/app/components/Home/SingleItem/SingleItem';
 import { useFetchItems } from '@/app/components/Home/hooks/useFetchItems';
+import { useParams } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 
-type SingleItemProps = {
-  params: { itemId: number };
-};
 
 const debounce = (func: Function, delay: number) => {
   let timer: NodeJS.Timeout;
@@ -17,9 +15,10 @@ const debounce = (func: Function, delay: number) => {
   };
 };
 
-export default function SingleItemPage({ params }: SingleItemProps) {
+export default function SingleItemPage() {
   const { data: items } = useFetchItems();
   const containerRef = useRef<HTMLDivElement>(null);
+  const params = useParams<{ itemId: string }>();
   const itemId = Number(params.itemId);
   const item = items?.find((anItem) => anItem.id === itemId);
   const [width, setWidth] = useState<number>(0);

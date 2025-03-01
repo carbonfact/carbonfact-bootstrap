@@ -38,22 +38,20 @@ export const SingleItem: React.FC<SingleItemProps> = ({
   const slidersContainerHeight = Math.min(height, 300);
   return (
     <div className='flex items-center' ref={containerRef}>
-      <div className='relative flex'>
-        <div
-          className="flex"
-          style={{
-            height: `${slidersContainerHeight}px`,
-            width: `${slidersContainerWidth}px`,
-          }}
-        >
-          {itemToDisplay.rawMaterials.map((aRawMaterial, i) => (
-            <RawMaterialSlider
-              key={`rawMaterialSlider-${itemToDisplay?.id}${aRawMaterial?.name}`}
-              rawMaterial={aRawMaterial}
-              onChange={(material) => handleMaterialChange(material, i)}
-            />
-          ))}
-        </div>
+      <div
+        className="flex"
+        style={{
+          height: `${slidersContainerHeight}px`,
+          width: `${slidersContainerWidth}px`,
+        }}
+      >
+        {itemToDisplay.rawMaterials.map((aRawMaterial, i) => (
+          <RawMaterialSlider
+            key={`rawMaterialSlider-${itemToDisplay?.id}${aRawMaterial?.name}`}
+            rawMaterial={aRawMaterial}
+            onChange={(material) => handleMaterialChange(material, i)}
+          />
+        ))}
       </div>
       <CarbonScore item={itemToDisplay}></CarbonScore>
     </div >
