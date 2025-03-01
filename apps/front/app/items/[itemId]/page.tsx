@@ -18,7 +18,7 @@ const debounce = (func: Function, delay: number) => {
 };
 
 export default function SingleItemPage({ params }: SingleItemProps) {
-  const { data: items, isLoading } = useFetchItems();
+  const { data: items } = useFetchItems();
   const containerRef = useRef<HTMLDivElement>(null);
   const itemId = Number(params.itemId);
   const item = items?.find((anItem) => anItem.id === itemId);

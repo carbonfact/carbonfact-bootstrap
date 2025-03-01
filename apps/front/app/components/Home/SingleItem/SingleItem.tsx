@@ -1,7 +1,6 @@
 'use client';
 import { Item, RawMaterial } from '@/app/types/item.type';
 import React from 'react';
-import { BezierCurveComponent } from './BezierCurve';
 import { CarbonScore } from './CarbonScore';
 import RawMaterialSlider from './RawMaterialSlider';
 
@@ -39,22 +38,7 @@ export const SingleItem: React.FC<SingleItemProps> = ({
   const slidersContainerHeight = Math.min(height, 300);
   return (
     <div className='flex items-center' ref={containerRef}>
-      <div className='relative flex' style={{
-        height: `${slidersContainerHeight}px`,
-        width: `${slidersContainerWidth}px`,
-      }
-      }>
-        <BezierCurveComponent
-          svgHeight={slidersContainerHeight}
-          style={{
-            position: 'absolute',
-            overflow: 'visible',
-            height: `${slidersContainerHeight}px`,
-            width: `${slidersContainerWidth}px`,
-          }}
-          svgWidth={slidersContainerWidth}
-          rawMaterials={itemToDisplay.rawMaterials}
-        ></BezierCurveComponent>
+      <div className='relative flex'>
         <div
           className="flex"
           style={{
