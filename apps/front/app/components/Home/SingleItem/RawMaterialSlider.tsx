@@ -1,5 +1,5 @@
 import { RawMaterial } from '@/app/types/item.type';
-import { Flex, Slider } from '@radix-ui/themes';
+import { Slider } from '@radix-ui/themes';
 
 interface RawMaterialSliderProps {
   rawMaterial: RawMaterial;
@@ -14,12 +14,7 @@ const RawMaterialSlider: React.FC<RawMaterialSliderProps> = ({
     onChange(rawMaterial);
   };
   return (
-    <Flex
-      justify={'between'}
-      style={{ width: '100%', justifyContent: 'center' }}
-      align={'center'}
-      direction={'column'}
-    >
+    <div className="flex flex-col items-center w-full justify-center">
       <Slider
         color="indigo"
         min={0}
@@ -29,7 +24,7 @@ const RawMaterialSlider: React.FC<RawMaterialSliderProps> = ({
         onValueChange={handleSliderChange}
       />
       {rawMaterial.name}
-    </Flex>
+    </div>
   );
 };
 

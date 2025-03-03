@@ -1,13 +1,9 @@
 'use client';
 import { SingleItem } from '@/app/components/Home/SingleItem/SingleItem';
 import { useFetchItems } from '@/app/components/Home/hooks/useFetchItems';
-import { Box } from '@radix-ui/themes';
+import { useParams } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
-import { singleItemContainerStyle } from '../page.css';
 
-type SingleItemProps = {
-  params: { itemId: number };
-};
 
 const debounce = (func: Function, delay: number) => {
   let timer: NodeJS.Timeout;
@@ -19,9 +15,10 @@ const debounce = (func: Function, delay: number) => {
   };
 };
 
-export default function SingleItemPage({ params }: SingleItemProps) {
-  const { data: items, isLoading } = useFetchItems();
+export default function SingleItemPage() {
+  const { data: items } = useFetchItems();
   const containerRef = useRef<HTMLDivElement>(null);
+  const params = useParams<{ itemId: string }>();
   const itemId = Number(params.itemId);
   const item = items?.find((anItem) => anItem.id === itemId);
   const [width, setWidth] = useState<number>(0);
@@ -53,13 +50,12 @@ export default function SingleItemPage({ params }: SingleItemProps) {
     setHasRendered(true);
   }
   return (
-    <Box ref={containerRef} width={'100%'} height={'100%'}>
+    <div ref={containerRef} className='w-full h-full'>
       <SingleItem
         width={width - 20}
         height={height}
-        className={singleItemContainerStyle}
         item={item}
       ></SingleItem>
-    </Box>
+    </div>
   );
 }

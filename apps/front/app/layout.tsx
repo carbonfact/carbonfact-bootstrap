@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import NavBar from './NavBar';
 import Providers from './Providers';
-import { fullHeightAndWidth } from './globals.css';
+import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,24 +19,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en" className={fullHeightAndWidth}>
-      <body className={`${inter.className} ${fullHeightAndWidth}`}>
+    <html suppressHydrationWarning lang="en" className='w-full h-full'>
+      <body className={`${inter.className} w-full h-full`}>
         <Providers>
           <Theme
             appearance="dark"
             accentColor="blue"
-            className={fullHeightAndWidth}
+            className='w-full h-full'
           >
-            <Flex
-              direction="column"
-              gap="2"
-              p="3"
-              width={'100%'}
-              height={'100%'}
-            >
+            <div className='flex flex-col w-full h-full gap-4 p-6'>
               <NavBar />
               {children}
-            </Flex>
+            </div>
           </Theme>
         </Providers>
       </body>
