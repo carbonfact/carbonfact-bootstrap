@@ -41,7 +41,6 @@ cd apps/back && npm run start:dev
 
 Open `localhost:3000`
 
-![testImage](./SCR-20230910-trpq.png)
 
 # Testing
 
