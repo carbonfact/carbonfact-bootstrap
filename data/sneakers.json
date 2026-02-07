@@ -1,0 +1,3860 @@
+{
+  "carbonverseId": "ff8f3ec1-df7f-4dec-bfef-efd73c3dbac2",
+  "carbonverse": {
+    "95_percent_rule": {
+      "applies": false,
+      "proportion_of_non_measured_materials": 0
+    },
+    "account_sku": "7351930367-supplier-i-2020",
+    "account_slug": "demo-account",
+    "account_taxonomy": {
+      "Name": "Best Sneakers",
+      "Season": "Winter"
+    },
+    "barcode": {
+      "context": {
+        "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+        "rule": null,
+        "source": "DATA_SOURCE",
+        "updated_at": null
+      },
+      "norm": "8599355057187",
+      "raw": null
+    },
+    "brand_sku": null,
+    "brand_slug": "coyote-denim",
+    "complete": true,
+    "components": [
+      {
+        "account_taxonomy": {},
+        "material_trademark": null,
+        "materials": [
+          {
+            "category": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": "RUBBER_ELASTOMER/RUBBER/RECYCLED",
+              "raw": "recycled rubber "
+            },
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "PT",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "PT",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "RAW_MATERIALS",
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "RAW_MATERIALS/RUBBER_ELASTOMER",
+            "proportion": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": 70,
+              "raw": null
+            },
+            "record": {
+              "data_sources": [],
+              "raw": {
+                "component_count": 1,
+                "component_id": "comp#3",
+                "component_mass": "552.3480000000001 grams",
+                "placement": "outsole ",
+                "product_sku": "7351930367",
+                "raw_material_description": "recycled rubber ",
+                "raw_material_id": "raw_mat#1",
+                "raw_material_proportion": "70%",
+                "raw_material_tier_3_factory_country": "PT",
+                "raw_material_tier_4_factory_country": "PT"
+              }
+            }
+          },
+          {
+            "category": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": "RUBBER_ELASTOMER/NATURAL_RUBBER",
+              "raw": "natural rubber "
+            },
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "PT",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "PT",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "RAW_MATERIALS",
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "RAW_MATERIALS/RUBBER_ELASTOMER",
+            "proportion": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": 30,
+              "raw": null
+            },
+            "record": {
+              "data_sources": [],
+              "raw": {
+                "component_count": 1,
+                "component_id": "comp#3",
+                "component_mass": "552.3480000000001 grams",
+                "placement": "outsole ",
+                "product_sku": "7351930367",
+                "raw_material_description": "natural rubber ",
+                "raw_material_id": "raw_mat#2",
+                "raw_material_proportion": "30%",
+                "raw_material_tier_3_factory_country": "PT",
+                "raw_material_tier_4_factory_country": "PT"
+              }
+            }
+          }
+        ],
+        "norm": "BOTTOM/OUTSOLE",
+        "process_steps": [
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": 10,
+              "raw": null
+            },
+            "manufacturing_year": null,
+            "norm": "MOLDING_AND_CURING/COMPRESSION_MOLDING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          }
+        ],
+        "process_steps_blueprint": "MATERIALS/GENERIC/RUBBER_ELASTOMER+COMPONENTS/BOTTOM/OUTSOLE",
+        "proportion": {
+          "context": {
+            "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+            "rule": null,
+            "source": "DATA_SOURCE",
+            "updated_at": null
+          },
+          "norm": 68.63136863136863,
+          "raw": null
+        },
+        "raw": null
+      },
+      {
+        "account_taxonomy": {},
+        "material_trademark": null,
+        "materials": [
+          {
+            "category": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": "CELLULOSE_BASED_FIBERS/VISCOSE/ECOVERO",
+              "raw": "ecovero "
+            },
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "AT",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "AT",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "RAW_MATERIALS",
+                "raw": null,
+                "record": null,
+                "transport": []
+              },
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "AT",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "AT",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "YARN_FORMATION/SPINNING",
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "RAW_MATERIALS/CELLULOSE_BASED_FIBERS",
+            "proportion": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": 100,
+              "raw": null
+            },
+            "record": {
+              "data_sources": [],
+              "raw": {
+                "component_count": 1,
+                "component_id": "comp#1",
+                "component_mass": "225.12 grams",
+                "placement": "upper ",
+                "product_sku": "7351930367",
+                "raw_material_description": "ecovero ",
+                "raw_material_id": "raw_mat#1",
+                "raw_material_proportion": "100%",
+                "raw_material_tier_3_factory_country": "AT",
+                "raw_material_tier_4_factory_country": "AT"
+              }
+            }
+          }
+        ],
+        "norm": "UPPER",
+        "process_steps": [
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "TEXTILE_FORMATION/GENERIC",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "PREPARATION/NATURAL_FIBERS",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "PREPARATION/PRE_DYEING/NATURAL_FIBERS",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "COLORATION/DYEING/VAT_REACTIVE",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/WASHING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/HEAT_SETTING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/PAD_DRY_CURE",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/SANFORIZATION",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/SOFTENING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": 20,
+              "raw": null
+            },
+            "manufacturing_year": null,
+            "norm": "ASSEMBLY/GENERIC",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          }
+        ],
+        "process_steps_blueprint": "MATERIALS/GENERIC/CELLULOSE_BASED_FIBERS+COMPONENTS/GENERIC",
+        "proportion": {
+          "context": {
+            "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+            "rule": null,
+            "source": "DATA_SOURCE",
+            "updated_at": null
+          },
+          "norm": 27.97202797202797,
+          "raw": null
+        },
+        "raw": null
+      },
+      {
+        "account_taxonomy": {},
+        "material_trademark": null,
+        "materials": [
+          {
+            "category": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": "PLASTIC/POLYURETHANE/RECYCLED",
+              "raw": "recycled PU foam "
+            },
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "PT",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "PT",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "RAW_MATERIALS",
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "RAW_MATERIALS/PLASTIC",
+            "proportion": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": 100,
+              "raw": null
+            },
+            "record": {
+              "data_sources": [],
+              "raw": {
+                "component_count": 1,
+                "component_id": "comp#2",
+                "component_mass": "15.276 grams",
+                "placement": "insole ",
+                "product_sku": "7351930367",
+                "raw_material_description": "recycled PU foam ",
+                "raw_material_id": "raw_mat#1",
+                "raw_material_proportion": "100%",
+                "raw_material_tier_3_factory_country": "PT",
+                "raw_material_tier_4_factory_country": "PT"
+              }
+            }
+          }
+        ],
+        "norm": "BOTTOM/INSOLE",
+        "process_steps": [
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "MIXING_AND_PREPARATION/PLASTIC_MIXING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": 10,
+              "raw": null
+            },
+            "manufacturing_year": null,
+            "norm": "MOLDING_AND_CURING/PLASTIC_FORMING_SHAPING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          }
+        ],
+        "process_steps_blueprint": "MATERIALS/GENERIC/PLASTIC+COMPONENTS/GENERIC/PLASTIC",
+        "proportion": {
+          "context": {
+            "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+            "rule": null,
+            "source": "DATA_SOURCE",
+            "updated_at": null
+          },
+          "norm": 1.8981018981018978,
+          "raw": null
+        },
+        "raw": null
+      },
+      {
+        "account_taxonomy": {},
+        "material_trademark": null,
+        "materials": [
+          {
+            "category": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": "SYNTHETIC_FIBERS/POLYESTER/RECYCLED",
+              "raw": "recycled polyester "
+            },
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "PT",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "PT",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "RAW_MATERIALS",
+                "raw": null,
+                "record": null,
+                "transport": []
+              },
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "PT",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "PT",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "YARN_FORMATION/EXTRUSION_AND_MELT_SPINNING",
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "RAW_MATERIALS/SYNTHETIC_FIBERS",
+            "proportion": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": 100,
+              "raw": null
+            },
+            "record": {
+              "data_sources": [],
+              "raw": {
+                "component_count": 1,
+                "component_id": "comp#4",
+                "component_mass": "12.06 grams",
+                "placement": "laces ",
+                "product_sku": "7351930367",
+                "raw_material_description": "recycled polyester ",
+                "raw_material_id": "raw_mat#1",
+                "raw_material_proportion": "100%",
+                "raw_material_tier_3_factory_country": "PT",
+                "raw_material_tier_4_factory_country": "PT"
+              }
+            }
+          }
+        ],
+        "norm": "LACES",
+        "process_steps": [
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "TEXTILE_FORMATION/GENERIC",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "PREPARATION/SYNTHETIC_FIBERS",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "COLORATION/DYEING/SYNTHETIC_FIBERS",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/WASHING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/HEAT_SETTING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/PAD_DRY_CURE",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/SOFTENING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/THERMOFIXING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": 0,
+              "raw": null
+            },
+            "manufacturing_year": null,
+            "norm": "ASSEMBLY/GENERIC",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          }
+        ],
+        "process_steps_blueprint": "MATERIALS/GENERIC/SYNTHETIC_FIBERS+COMPONENTS/GENERIC",
+        "proportion": {
+          "context": {
+            "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+            "rule": null,
+            "source": "DATA_SOURCE",
+            "updated_at": null
+          },
+          "norm": 1.4985014985014984,
+          "raw": null
+        },
+        "raw": null
+      }
+    ],
+    "couture_version": "v20260105-153232",
+    "distribution": {
+      "packaging": {
+        "components": [
+          {
+            "account_taxonomy": {},
+            "material_trademark": null,
+            "materials": [
+              {
+                "category": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "PLASTIC/POLYETHYLENE",
+                  "raw": "Polybag"
+                },
+                "process_steps": [
+                  {
+                    "certificates": [],
+                    "context": {
+                      "note": null,
+                      "rule": null,
+                      "source": "HEURISTIC",
+                      "updated_at": null
+                    },
+                    "dtex": null,
+                    "factory_address": null,
+                    "factory_country": "WORLD",
+                    "factory_id": null,
+                    "factory_latitude": null,
+                    "factory_longitude": null,
+                    "factory_name": null,
+                    "gsm": null,
+                    "location": {
+                      "context": {
+                        "note": null,
+                        "rule": null,
+                        "source": "HEURISTIC",
+                        "updated_at": null
+                      },
+                      "norm": "WORLD",
+                      "raw": null
+                    },
+                    "loss_rate": null,
+                    "manufacturing_year": null,
+                    "norm": "RAW_MATERIALS",
+                    "raw": null,
+                    "record": null,
+                    "transport": []
+                  }
+                ],
+                "process_steps_blueprint": "RAW_MATERIALS/PLASTIC",
+                "proportion": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": 100,
+                  "raw": null
+                },
+                "record": {
+                  "data_sources": [],
+                  "raw": {
+                    "component_id": "component#1",
+                    "component_mass": "20g",
+                    "placement": "Polybag",
+                    "product_sku": "7351930367",
+                    "raw_material_description": "Polybag",
+                    "raw_material_id": "raw_material#1",
+                    "raw_material_proportion": "100%"
+                  }
+                }
+              }
+            ],
+            "norm": "POLYBAG",
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "WORLD",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HEURISTIC",
+                    "updated_at": null
+                  },
+                  "norm": "WORLD",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "MIXING_AND_PREPARATION/PLASTIC_MIXING",
+                "printing_surface_share": null,
+                "raw": null,
+                "record": null,
+                "transport": []
+              },
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "WORLD",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HEURISTIC",
+                    "updated_at": null
+                  },
+                  "norm": "WORLD",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "MOLDING_AND_CURING/EXTRUSION/PLASTIC_FILM",
+                "printing_surface_share": null,
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "MATERIALS/GENERIC/PLASTIC+COMPONENTS/POLYBAG/PLASTIC/POLYETHYLENE",
+            "proportion": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HARD_CODING",
+                "updated_at": null
+              },
+              "norm": 9.090909090909092,
+              "raw": null
+            },
+            "raw": null
+          },
+          {
+            "account_taxonomy": {},
+            "material_trademark": null,
+            "materials": [
+              {
+                "category": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "PAPER_AND_CARDBOARD/CARDBOARD",
+                  "raw": "cardboard"
+                },
+                "process_steps": [
+                  {
+                    "certificates": [],
+                    "context": {
+                      "note": null,
+                      "rule": null,
+                      "source": "HEURISTIC",
+                      "updated_at": null
+                    },
+                    "dtex": null,
+                    "factory_address": null,
+                    "factory_country": "WORLD",
+                    "factory_id": null,
+                    "factory_latitude": null,
+                    "factory_longitude": null,
+                    "factory_name": null,
+                    "gsm": null,
+                    "location": {
+                      "context": {
+                        "note": null,
+                        "rule": null,
+                        "source": "HEURISTIC",
+                        "updated_at": null
+                      },
+                      "norm": "WORLD",
+                      "raw": null
+                    },
+                    "loss_rate": null,
+                    "manufacturing_year": null,
+                    "norm": "RAW_MATERIALS",
+                    "raw": null,
+                    "record": null,
+                    "transport": []
+                  }
+                ],
+                "process_steps_blueprint": "RAW_MATERIALS/PAPER_AND_CARDBOARD",
+                "proportion": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": 100,
+                  "raw": null
+                },
+                "record": {
+                  "data_sources": [],
+                  "raw": {
+                    "component_id": "component#2",
+                    "component_mass": "200g",
+                    "placement": "cardboard",
+                    "product_sku": "7351930367",
+                    "raw_material_description": "cardboard",
+                    "raw_material_id": "raw_material#1",
+                    "raw_material_proportion": "100%"
+                  }
+                }
+              }
+            ],
+            "norm": "CARDBOARD",
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "WORLD",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HEURISTIC",
+                    "updated_at": null
+                  },
+                  "norm": "WORLD",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "ASSEMBLY/GENERIC",
+                "printing_surface_share": null,
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "MATERIALS/GENERIC/PAPER_AND_CARDBOARD+COMPONENTS/GENERIC",
+            "proportion": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HARD_CODING",
+                "updated_at": null
+              },
+              "norm": 90.9090909090909,
+              "raw": null
+            },
+            "raw": null
+          }
+        ],
+        "weight": {
+          "context": {
+            "note": null,
+            "rule": null,
+            "source": "HARD_CODING",
+            "updated_at": null
+          },
+          "norm": 220,
+          "raw": null,
+          "unit": "g"
+        }
+      },
+      "transport_scenarios": [
+        {
+          "probability": {
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "norm": 12.82,
+            "raw": null
+          },
+          "sequence": [
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 1000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "TRUCK",
+              "raw": null
+            },
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 10000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "AIRPLANE",
+              "raw": null
+            }
+          ]
+        },
+        {
+          "probability": {
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "norm": 84.62,
+            "raw": null
+          },
+          "sequence": [
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 1000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "TRUCK",
+              "raw": null
+            },
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 18000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "CONTAINER_SHIP",
+              "raw": null
+            }
+          ]
+        },
+        {
+          "probability": {
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "norm": 2.56,
+            "raw": null
+          },
+          "sequence": [
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 1000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "TRUCK",
+              "raw": null
+            },
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 10000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "TRAIN",
+              "raw": null
+            }
+          ]
+        }
+      ]
+    },
+    "ecobalyse": {
+      "errors": [
+        "Ecobalyse does not handle products with category : SHOES/SNEAKERS"
+      ],
+      "success": false
+    },
+    "efs_generation_id": "20251222092640888",
+    "forecasted_purchase_orders": [],
+    "image_url": null,
+    "is_upcycled": null,
+    "lca_engine_version": "18",
+    "measurement_couture_version": "v20260105-154917",
+    "measurement_errors": [
+      {
+        "emissionFactorDescriptorAfterFallbacks": "MATERIAL_PROCESS_STEP:RAW_MATERIALS#CELLULOSE_BASED_FIBERS/VISCOSE/ECOVERO@WORLD",
+        "emissionFactorDescriptorBeforeFallbacks": "MATERIAL_PROCESS_STEP:RAW_MATERIALS#CELLULOSE_BASED_FIBERS/VISCOSE/ECOVERO?PERIOD=2020@COUNTRY:AT@PROPRIETARY:demo-account",
+        "impactTypes": [
+          "ACD",
+          "ETF",
+          "FRU",
+          "FWE",
+          "HTC",
+          "HTN",
+          "IOR",
+          "LDU",
+          "MRU",
+          "OZD",
+          "PCO",
+          "PMA",
+          "SWE",
+          "TRE",
+          "WTU"
+        ],
+        "type": "MISSING_EMISSION_FACTOR"
+      }
+    ],
+    "metadata": {},
+    "name": "Best Sneakers",
+    "norm": "SHOES/SNEAKERS",
+    "pack_size": {
+      "context": {
+        "note": null,
+        "rule": null,
+        "source": "UNKNOWN",
+        "updated_at": null
+      },
+      "norm": 1,
+      "raw": null
+    },
+    "period": "2020",
+    "process_activities": [
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.804,
+            "min": 0.804,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.804,
+            "min": 0.804,
+            "unit": "kg"
+          }
+        },
+        "path": ["process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": "supplier-i",
+          "gsm": null,
+          "location": {
+            "code": "ID",
+            "type": "COUNTRY"
+          },
+          "period": "2020",
+          "processStep": "ASSEMBLY/GENERIC",
+          "productCategory": "SHOES/SNEAKERS",
+          "type": "PRODUCT_PROCESS_STEP"
+        },
+        "processType": "PRODUCT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.613106893106893,
+            "min": 0.613106893106893,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 10,
+            "min": 10
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.5517962037962038,
+            "min": 0.5517962037962038,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 0, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "BOTTOM/OUTSOLE",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "MOLDING_AND_CURING/COMPRESSION_MOLDING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.1839320679320679,
+            "min": 0.1839320679320679,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 0, "materials", 1, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "PT",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "RUBBER_ELASTOMER/NATURAL_RUBBER",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.4291748251748251,
+            "min": 0.4291748251748251,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 0, "materials", 0, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "PT",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "RUBBER_ELASTOMER/RUBBER/RECYCLED",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 20,
+            "min": 20
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2248951048951049,
+            "min": 0.2248951048951049,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 9],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "UPPER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "ASSEMBLY/GENERIC",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 8],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "UPPER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/SOFTENING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 7],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "UPPER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/SANFORIZATION",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 6],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "UPPER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/PAD_DRY_CURE",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 5],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "UPPER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/HEAT_SETTING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 4],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "UPPER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/WASHING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.3069818181818182,
+            "min": 0.2864601398601398,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 8.424908424908429,
+            "min": 1.8645731108930197
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2811188811188811,
+            "min": 0.2811188811188811,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 3],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "UPPER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "COLORATION/DYEING/VAT_REACTIVE",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.3131214545454546,
+            "min": 0.2887518209790209,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 1.9607843137254943,
+            "min": 0.7936507936507908
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.3069818181818182,
+            "min": 0.2864601398601398,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 2],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "UPPER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "PREPARATION/PRE_DYEING/NATURAL_FIBERS",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.3131214545454546,
+            "min": 0.2887518209790209,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.3131214545454546,
+            "min": 0.2887518209790209,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 1],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "UPPER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "PREPARATION/NATURAL_FIBERS",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.32877752727272735,
+            "min": 0.2974143756083915,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 4.761904761904767,
+            "min": 2.9126213592232997
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.3131214545454546,
+            "min": 0.2887518209790209,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "UPPER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "TEXTILE_FORMATION/GENERIC",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.4320136708363638,
+            "min": 0.3331041006813985,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "materials", 0, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "AT",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "CELLULOSE_BASED_FIBERS/VISCOSE/ECOVERO",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.4320136708363638,
+            "min": 0.3331041006813985,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 23.896499238964996,
+            "min": 10.71428571428572
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.32877752727272735,
+            "min": 0.2974143756083915,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "materials", 0, "process_steps", 1],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "AT",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "CELLULOSE_BASED_FIBERS/VISCOSE/ECOVERO",
+          "period": "2020",
+          "processStep": "YARN_FORMATION/SPINNING",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.016956376956376955,
+            "min": 0.016956376956376955,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 10,
+            "min": 10
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.015260739260739259,
+            "min": 0.015260739260739259,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 2, "process_steps", 1],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "BOTTOM/INSOLE",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "MOLDING_AND_CURING/PLASTIC_FORMING_SHAPING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.016956376956376955,
+            "min": 0.016956376956376955,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.016956376956376955,
+            "min": 0.016956376956376955,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 2, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "BOTTOM/INSOLE",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "MIXING_AND_PREPARATION/PLASTIC_MIXING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.016956376956376955,
+            "min": 0.016956376956376955,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 2, "materials", 0, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "PT",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "PLASTIC/POLYURETHANE/RECYCLED",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "process_steps", 8],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LACES",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "ASSEMBLY/GENERIC",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "process_steps", 7],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LACES",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/THERMOFIXING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "process_steps", 6],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LACES",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/SOFTENING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "process_steps", 5],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LACES",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/PAD_DRY_CURE",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "process_steps", 4],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LACES",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/HEAT_SETTING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "process_steps", 3],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LACES",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/WASHING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.013156363636363636,
+            "min": 0.012276863136863134,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 8.424908424908429,
+            "min": 1.8645731108930197
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.012047952047952048,
+            "min": 0.012047952047952048,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "process_steps", 2],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LACES",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "COLORATION/DYEING/SYNTHETIC_FIBERS",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.013156363636363636,
+            "min": 0.012276863136863134,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.013156363636363636,
+            "min": 0.012276863136863134,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "process_steps", 1],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LACES",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "PREPARATION/SYNTHETIC_FIBERS",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.01381418181818182,
+            "min": 0.012645169030969029,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 4.761904761904767,
+            "min": 2.9126213592232997
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.013156363636363636,
+            "min": 0.012276863136863134,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LACES",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "TEXTILE_FORMATION/GENERIC",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.014228607272727274,
+            "min": 0.0130245241018981,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "materials", 0, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "PT",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "SYNTHETIC_FIBERS/POLYESTER/RECYCLED",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.014228607272727274,
+            "min": 0.0130245241018981,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 2.9126213592232997,
+            "min": 2.9126213592232997
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.01381418181818182,
+            "min": 0.012645169030969029,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "materials", 0, "process_steps", 1],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "PT",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "SYNTHETIC_FIBERS/POLYESTER/RECYCLED",
+          "period": "2020",
+          "processStep": "YARN_FORMATION/EXTRUSION_AND_MELT_SPINNING",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.020499999999999997,
+            "min": 0.020499999999999997,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 2.4390243902438935,
+            "min": 2.4390243902438935
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.02,
+            "min": 0.02,
+            "unit": "kg"
+          }
+        },
+        "path": [
+          "distribution",
+          "packaging",
+          "components",
+          0,
+          "process_steps",
+          1
+        ],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "POLYBAG",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "MOLDING_AND_CURING/EXTRUSION/PLASTIC_FILM",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.020499999999999997,
+            "min": 0.020499999999999997,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.020499999999999997,
+            "min": 0.020499999999999997,
+            "unit": "kg"
+          }
+        },
+        "path": [
+          "distribution",
+          "packaging",
+          "components",
+          0,
+          "process_steps",
+          0
+        ],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "POLYBAG",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "MIXING_AND_PREPARATION/PLASTIC_MIXING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.020499999999999997,
+            "min": 0.020499999999999997,
+            "unit": "kg"
+          }
+        },
+        "path": [
+          "distribution",
+          "packaging",
+          "components",
+          0,
+          "materials",
+          0,
+          "process_steps",
+          0
+        ],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "materialCategory": "PLASTIC/POLYETHYLENE",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.19999999999999998,
+            "min": 0.19999999999999998,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.19999999999999998,
+            "min": 0.19999999999999998,
+            "unit": "kg"
+          }
+        },
+        "path": [
+          "distribution",
+          "packaging",
+          "components",
+          1,
+          "process_steps",
+          0
+        ],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "CARDBOARD",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "ASSEMBLY/GENERIC",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.19999999999999998,
+            "min": 0.19999999999999998,
+            "unit": "kg"
+          }
+        },
+        "path": [
+          "distribution",
+          "packaging",
+          "components",
+          1,
+          "materials",
+          0,
+          "process_steps",
+          0
+        ],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "materialCategory": "PAPER_AND_CARDBOARD/CARDBOARD",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 0, "sequence", 0],
+        "probabilityPercentage": 12.82,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "TRUCK",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 1000,
+          "min": 1000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.001024,
+          "min": 0.001024,
+          "unit": "t"
+        }
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 0, "sequence", 1],
+        "probabilityPercentage": 12.82,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "AIRPLANE",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 10000,
+          "min": 10000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.001024,
+          "min": 0.001024,
+          "unit": "t"
+        }
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 1, "sequence", 0],
+        "probabilityPercentage": 84.62,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "TRUCK",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 1000,
+          "min": 1000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.001024,
+          "min": 0.001024,
+          "unit": "t"
+        }
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 1, "sequence", 1],
+        "probabilityPercentage": 84.62,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "CONTAINER_SHIP",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 18000,
+          "min": 18000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.001024,
+          "min": 0.001024,
+          "unit": "t"
+        }
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 2, "sequence", 0],
+        "probabilityPercentage": 2.56,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "TRUCK",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 1000,
+          "min": 1000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.001024,
+          "min": 0.001024,
+          "unit": "t"
+        }
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 2, "sequence", 1],
+        "probabilityPercentage": 2.56,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "TRAIN",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 10000,
+          "min": 10000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.001024,
+          "min": 0.001024,
+          "unit": "t"
+        }
+      },
+      {
+        "durationOfService": {
+          "max": 67,
+          "min": 67,
+          "unit": "use"
+        },
+        "functionalUnitsCount": 1,
+        "input": {
+          "max": 0.804,
+          "min": 0.804,
+          "unit": "kg"
+        },
+        "output": {
+          "max": 0.804,
+          "min": 0.804,
+          "unit": "kg"
+        },
+        "path": ["use"],
+        "probabilityPercentage": 100,
+        "process": {
+          "context": "PEFCR_EU",
+          "location": {
+            "code": "EU",
+            "type": "CONTINENT"
+          },
+          "period": "2020",
+          "productCategory": "FOOTWEAR/CLOSE_TOED_SHOES/NON_TEXTILE",
+          "type": "USE"
+        },
+        "processType": "USE"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "max": 0.804,
+          "min": 0.804,
+          "unit": "kg"
+        },
+        "path": ["end_of_life"],
+        "probabilityPercentage": 100,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "materialFamily": "ANY",
+          "period": "2020",
+          "treatment": "GENERIC",
+          "type": "END_OF_LIFE"
+        },
+        "processType": "END_OF_LIFE"
+      }
+    ],
+    "process_steps": [
+      {
+        "certificates": [],
+        "context": {
+          "note": null,
+          "rule": null,
+          "source": "HEURISTIC",
+          "updated_at": null
+        },
+        "dtex": null,
+        "factory_address": null,
+        "factory_country": "ID",
+        "factory_id": "supplier-i",
+        "factory_latitude": null,
+        "factory_longitude": null,
+        "factory_name": "supplier-i",
+        "gsm": null,
+        "location": {
+          "context": {
+            "note": null,
+            "rule": null,
+            "source": "DATA_SOURCE",
+            "updated_at": null
+          },
+          "norm": "ID",
+          "raw": null
+        },
+        "loss_rate": {
+          "context": {
+            "note": null,
+            "rule": null,
+            "source": "HEURISTIC",
+            "updated_at": null
+          },
+          "norm": 0,
+          "raw": null
+        },
+        "manufacturing_year": null,
+        "norm": "ASSEMBLY/GENERIC",
+        "raw": null,
+        "record": null,
+        "transport": []
+      }
+    ],
+    "process_steps_blueprint": "PRODUCTS/SHOES",
+    "product_size": null,
+    "product_sku": "7351930367",
+    "raw": null,
+    "record": {
+      "data_sources": [],
+      "raw": {
+        "barcode": "8599355057187",
+        "brand_name": "Coyote Denim",
+        "care_label": "upper 28.0%: 100% ecovero (austria); insole 1.9%:100% recycled PU foam (Portugal); outsole 68.7%: 70% recycled rubber (Portugal), 30% natural rubber (Portugal); laces 1.5%: 100% recycled polyester (Portugal)",
+        "category": "Sneakers",
+        "mass": "804g",
+        "name": "Best Sneakers",
+        "product_sku": "7351930367",
+        "source_filename": "Demo Dataset.xlsx",
+        "source_sheet": "demo data"
+      }
+    },
+    "representative_product_identifier": "SHOES/SNEAKERS/VEGETAL",
+    "retail_price_eur": null,
+    "sales": [],
+    "schema_version": "7C",
+    "sex": null,
+    "specific_duration_of_service": 67,
+    "specific_duration_of_service_calculation": {
+      "durability_multiplier": 0.67,
+      "pef_default_duration": 100,
+      "pef_product_category": "FOOTWEAR/CLOSE_TOED_SHOES",
+      "repairability_multiplier": 1
+    },
+    "t1_factory_id": "supplier-i",
+    "weight": {
+      "context": {
+        "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 12",
+        "rule": null,
+        "source": "DATA_SOURCE",
+        "updated_at": null
+      },
+      "norm": 804,
+      "raw": null,
+      "unit": "g"
+    }
+  },
+  "issues": [],
+  "insights": {
+    "GHG": {
+      "total": {
+        "averageImpact": 21.999846408,
+        "averageWeight": 804,
+        "totalImpact": 806426.369931648,
+        "totalWeight": 804,
+        "totalAmount": 36656
+      },
+      "category": {
+        "averageImpact": 21.999846408
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 21.999846408,
+          "averageWeight": 804,
+          "totalImpact": 177956.757594312,
+          "totalWeight": 804,
+          "totalAmount": 8089
+        },
+        {
+          "year": 2021,
+          "averageImpact": 21.999846408,
+          "averageWeight": 804,
+          "totalImpact": 236718.34735008,
+          "totalWeight": 804,
+          "totalAmount": 10760
+        },
+        {
+          "year": 2022,
+          "averageImpact": 21.999846408,
+          "averageWeight": 804,
+          "totalImpact": 120999.155244,
+          "totalWeight": 804,
+          "totalAmount": 5500
+        },
+        {
+          "year": 2023,
+          "averageImpact": 21.999846408,
+          "averageWeight": 804,
+          "totalImpact": 93697.345851672,
+          "totalWeight": 804,
+          "totalAmount": 4259
+        },
+        {
+          "year": 2024,
+          "averageImpact": 21.999846408,
+          "averageWeight": 804,
+          "totalImpact": 84303.411435456,
+          "totalWeight": 804,
+          "totalAmount": 3832
+        },
+        {
+          "year": 2025,
+          "averageImpact": 21.999846408,
+          "averageWeight": 804,
+          "totalImpact": 92751.352456128,
+          "totalWeight": 804,
+          "totalAmount": 4216
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 4.265021602
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 5.941523547
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 8.055931269
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 1.173855937
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0.9246
+        },
+        {
+          "stage": "USE",
+          "impact": 1.638914054
+        }
+      ]
+    }
+  },
+  "skus": [
+    {
+      "sku": "7351930367-supplier-i-2023",
+      "productSku": "7351930367",
+      "period": "2023",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-i",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 21.999846408,
+        "PEF": null
+      }
+    },
+    {
+      "sku": "7351930367-supplier-i-2020",
+      "productSku": "7351930367",
+      "period": "2020",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-i",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 21.999846408,
+        "PEF": null
+      }
+    },
+    {
+      "sku": "7351930367-supplier-i-2025",
+      "productSku": "7351930367",
+      "period": "2025",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-i",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 21.999846408,
+        "PEF": null
+      }
+    },
+    {
+      "sku": "7351930367-supplier-i-2022",
+      "productSku": "7351930367",
+      "period": "2022",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-i",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 21.999846408,
+        "PEF": null
+      }
+    },
+    {
+      "sku": "7351930367-supplier-i-2024",
+      "productSku": "7351930367",
+      "period": "2024",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-i",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 21.999846408,
+        "PEF": null
+      }
+    },
+    {
+      "sku": "7351930367-supplier-i-2021",
+      "productSku": "7351930367",
+      "period": "2021",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-i",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 21.999846408,
+        "PEF": null
+      }
+    }
+  ],
+  "productCategory": "SHOES/SNEAKERS",
+  "availableIndicators": ["GHG"],
+  "isCompliantECS": false
+}
