@@ -1,28 +1,20 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { useQuery } from "@tanstack/react-query";
 import { ChevronRight, Folder, Loader2, Package } from "lucide-react";
-import type { ProductSummary } from "../../../shared/types";
+import { Link } from "react-router-dom";
+import { getProducts } from "../api";
 import { formatName } from "../utils/format";
 
 export function Products() {
-  const [products, setProducts] = useState<ProductSummary[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const {
+    data: products,
+    isLoading,
+    error,
+  } = useQuery({
+    queryKey: ["products"],
+    queryFn: getProducts,
+  });
 
-  useEffect(() => {
-    fetch("http://localhost:3001/api/products")
-      .then((res) => res.json())
-      .then((data) => {
-        setProducts(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        setError(err.message);
-        setLoading(false);
-      });
-  }, []);
-
-  if (loading) {
+  if (isLoading) {
     return (
       <div className="flex items-center gap-2 text-gray-500">
         <Loader2 className="w-5 h-5 animate-spin" />
@@ -31,8 +23,12 @@ export function Products() {
     );
   }
 
-  if (error) {
-    return <p className="text-red-500">Error: {error}</p>;
+  if (error || !products) {
+    return (
+      <p className="text-red-500">
+        Error: {error?.message || "Failed to load"}
+      </p>
+    );
   }
 
   return (
@@ -63,7 +59,8 @@ export function Products() {
                   {product.season}
                 </span>
                 <span className="px-2 py-1 bg-gray-100 text-gray-600 rounded">
-                  {product.weight.value}{product.weight.unit}
+                  {product.weight.value}
+                  {product.weight.unit}
                 </span>
               </div>
             </div>

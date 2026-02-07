@@ -1,7 +1,7 @@
+import { useQuery } from "@tanstack/react-query";
 import { Folder, Loader2, Plane, Ship, Train, Truck } from "lucide-react";
-import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import type { Product } from "../../../shared/types";
+import { getProduct } from "../api";
 import { ComponentList } from "../components/ComponentList";
 import { formatName } from "../utils/format";
 
@@ -22,28 +22,18 @@ function TransportIcon({ mode }: { mode: string }) {
 }
 
 export function ProductDetail() {
-  const { id } = useParams<{ id: string }>();
-  const [product, setProduct] = useState<Product | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const { id = "" } = useParams<{ id: string }>();
+  const {
+    data: product,
+    isLoading,
+    error,
+  } = useQuery({
+    queryKey: ["product", id],
+    queryFn: () => getProduct(id),
+    enabled: id.length > 0,
+  });
 
-  useEffect(() => {
-    fetch(`http://localhost:3001/api/products/${id}`)
-      .then((res) => {
-        if (!res.ok) throw new Error("Product not found");
-        return res.json();
-      })
-      .then((data) => {
-        setProduct(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        setError(err.message);
-        setLoading(false);
-      });
-  }, [id]);
-
-  if (loading) {
+  if (isLoading) {
     return (
       <div className="flex items-center gap-2 text-gray-500">
         <Loader2 className="w-5 h-5 animate-spin" />
@@ -55,7 +45,9 @@ export function ProductDetail() {
   if (error || !product) {
     return (
       <div className="space-y-4">
-        <p className="text-red-500">Error: {error || "Product not found"}</p>
+        <p className="text-red-500">
+          Error: {error?.message || "Product not found"}
+        </p>
         <Link to="/products" className="text-blue-600 hover:underline">
           Back to products
         </Link>

@@ -1,4 +1,4 @@
-import { Puzzle, Gem } from "lucide-react";
+import { Gem, Puzzle } from "lucide-react";
 import type { Component } from "../../../shared/types";
 import { formatName } from "../utils/format";
 import { MaterialCard } from "./MaterialCard";
@@ -21,7 +21,9 @@ export function ComponentCard({
           <div className="p-2 bg-indigo-100 rounded-lg">
             <Puzzle className="w-5 h-5 text-indigo-600" />
           </div>
-          <h3 className="text-xl font-semibold">{formatName(component.name)}</h3>
+          <h3 className="text-xl font-semibold">
+            {formatName(component.name)}
+          </h3>
         </div>
         <div className="text-right">
           <p className="text-blue-600 font-semibold">

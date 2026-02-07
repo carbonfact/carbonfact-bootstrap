@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import { BarChart3, Leaf, Package } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export function Home() {
   return (
@@ -30,8 +30,8 @@ export function Home() {
           <div>
             <h2 className="text-xl font-semibold mb-2">View Products</h2>
             <p className="text-gray-600">
-              Browse the product catalog and see detailed breakdowns of materials
-              and manufacturing processes.
+              Browse the product catalog and see detailed breakdowns of
+              materials and manufacturing processes.
             </p>
           </div>
         </Link>
