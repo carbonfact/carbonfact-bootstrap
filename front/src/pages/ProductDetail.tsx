@@ -1,8 +1,9 @@
-import { Plane, Ship, Train, Truck } from "lucide-react";
+import { Folder, Loader2, Plane, Ship, Train, Truck } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import type { Product } from "../../shared/types";
+import type { Product } from "../../../shared/types";
 import { ComponentList } from "../components/ComponentList";
+import { formatName } from "../utils/format";
 
 function TransportIcon({ mode }: { mode: string }) {
   const props = { size: 20, className: "text-gray-600" };
@@ -43,7 +44,12 @@ export function ProductDetail() {
   }, [id]);
 
   if (loading) {
-    return <p className="text-gray-500">Loading product...</p>;
+    return (
+      <div className="flex items-center gap-2 text-gray-500">
+        <Loader2 className="w-5 h-5 animate-spin" />
+        <span>Loading product...</span>
+      </div>
+    );
   }
 
   if (error || !product) {
@@ -69,7 +75,10 @@ export function ProductDetail() {
         <div className="flex justify-between items-start mb-6">
           <div>
             <h1 className="text-3xl font-bold">{product.name}</h1>
-            <p className="text-gray-500">{product.category}</p>
+            <div className="flex items-center gap-1 text-gray-500 mt-1">
+              <Folder className="w-4 h-4" />
+              <span>{formatName(product.category)}</span>
+            </div>
           </div>
           <div className="text-right">
             <p className="text-2xl font-semibold">

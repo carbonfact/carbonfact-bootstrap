@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import type { ProductSummary } from "../../shared/types";
+import { ChevronRight, Folder, Loader2, Package } from "lucide-react";
+import type { ProductSummary } from "../../../shared/types";
+import { formatName } from "../utils/format";
 
 export function Products() {
   const [products, setProducts] = useState<ProductSummary[]>([]);
@@ -21,7 +23,12 @@ export function Products() {
   }, []);
 
   if (loading) {
-    return <p className="text-gray-500">Loading products...</p>;
+    return (
+      <div className="flex items-center gap-2 text-gray-500">
+        <Loader2 className="w-5 h-5 animate-spin" />
+        <span>Loading products...</span>
+      </div>
+    );
   }
 
   if (error) {
@@ -37,28 +44,30 @@ export function Products() {
           <Link
             key={product.id}
             to={`/products/${product.id}`}
-            className="block bg-white rounded-lg shadow p-6 hover:shadow-md transition"
+            className="flex items-center gap-4 bg-white rounded-lg shadow p-6 hover:shadow-md transition"
           >
-            <div className="flex justify-between items-start">
-              <div>
-                <h2 className="text-xl font-semibold">{product.name}</h2>
-                <p className="text-gray-500">{product.category}</p>
+            <div className="p-3 bg-blue-100 rounded-lg">
+              <Package className="w-6 h-6 text-blue-600" />
+            </div>
+            <div className="flex-1">
+              <h2 className="text-xl font-semibold">{product.name}</h2>
+              <div className="flex items-center gap-1 text-gray-500 text-sm mt-1">
+                <Folder className="w-3 h-3" />
+                <span>{formatName(product.category)}</span>
               </div>
-              <div className="text-right">
-                <p className="text-sm text-gray-500">
-                  {product.weight.value}
-                  {product.weight.unit}
-                </p>
+              <div className="mt-3 flex gap-3 text-sm">
+                <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded">
+                  {product.brand}
+                </span>
+                <span className="px-2 py-1 bg-green-100 text-green-800 rounded">
+                  {product.season}
+                </span>
+                <span className="px-2 py-1 bg-gray-100 text-gray-600 rounded">
+                  {product.weight.value}{product.weight.unit}
+                </span>
               </div>
             </div>
-            <div className="mt-4 flex gap-4 text-sm">
-              <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded">
-                {product.brand}
-              </span>
-              <span className="px-2 py-1 bg-green-100 text-green-800 rounded">
-                {product.season}
-              </span>
-            </div>
+            <ChevronRight className="w-5 h-5 text-gray-400" />
           </Link>
         ))}
       </div>

@@ -1,4 +1,4 @@
-import type { Component } from "../../shared/types";
+import type { Component } from "../../../shared/types";
 import { ComponentCard } from "./ComponentCard";
 
 interface ComponentListProps {
