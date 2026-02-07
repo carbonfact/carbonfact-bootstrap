@@ -1,0 +1,4676 @@
+{
+  "carbonverseId": "bd65f708-90d7-4f36-be65-923ec82d3f66",
+  "carbonverse": {
+    "95_percent_rule": {
+      "applies": false,
+      "proportion_of_non_measured_materials": 0
+    },
+    "account_sku": "2816736344-supplier-c-2020",
+    "account_slug": "demo-account",
+    "account_taxonomy": {
+      "Name": "Small bag",
+      "Season": "Winter"
+    },
+    "barcode": {
+      "context": {
+        "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+        "rule": null,
+        "source": "DATA_SOURCE",
+        "updated_at": null
+      },
+      "norm": "1521929251139",
+      "raw": null
+    },
+    "brand_sku": null,
+    "brand_slug": "coyote-denim",
+    "complete": true,
+    "components": [
+      {
+        "account_taxonomy": {},
+        "material_trademark": null,
+        "materials": [
+          {
+            "category": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": "LEATHER/BOVINE/COW",
+              "raw": "leather "
+            },
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "IT",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "IT",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "RAW_MATERIALS",
+                "raw": null,
+                "record": null,
+                "transport": []
+              },
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "IT",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "IT",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "SLAUGHTERING",
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "RAW_MATERIALS/LEATHER",
+            "proportion": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": 100,
+              "raw": null
+            },
+            "record": {
+              "data_sources": [],
+              "raw": {
+                "component_count": 1,
+                "component_id": "comp#1",
+                "component_mass": "136.0 grams",
+                "placement": "outer ",
+                "product_sku": "2816736344",
+                "raw_material_description": "leather ",
+                "raw_material_id": "raw_mat#1",
+                "raw_material_proportion": "100%",
+                "raw_material_tier_3_factory_country": "IT",
+                "raw_material_tier_4_factory_country": "IT"
+              }
+            }
+          }
+        ],
+        "norm": "OUTER",
+        "process_steps": [
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "BEAMHOUSE_PREPARATION",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "TANNING/CHROME_BASED",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "POST_TANNING/CHROME_BASED",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING_AND_TRIMMING/LEATHER",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": 20,
+              "raw": null
+            },
+            "manufacturing_year": null,
+            "norm": "ASSEMBLY/GENERIC",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          }
+        ],
+        "process_steps_blueprint": "MATERIALS/GENERIC/LEATHER+COMPONENTS/GENERIC",
+        "proportion": {
+          "context": {
+            "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+            "rule": null,
+            "source": "DATA_SOURCE",
+            "updated_at": null
+          },
+          "norm": 68,
+          "raw": null
+        },
+        "raw": null
+      },
+      {
+        "account_taxonomy": {},
+        "material_trademark": null,
+        "materials": [
+          {
+            "category": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": "SYNTHETIC_FIBERS/POLYESTER/RECYCLED",
+              "raw": "recycled polyester "
+            },
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "CN",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "CN",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "RAW_MATERIALS",
+                "raw": null,
+                "record": null,
+                "transport": []
+              },
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "CN",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "CN",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "YARN_FORMATION/EXTRUSION_AND_MELT_SPINNING",
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "RAW_MATERIALS/SYNTHETIC_FIBERS",
+            "proportion": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": 100,
+              "raw": null
+            },
+            "record": {
+              "data_sources": [],
+              "raw": {
+                "component_count": 1,
+                "component_id": "comp#3",
+                "component_mass": "34.0 grams",
+                "placement": "lining ",
+                "product_sku": "2816736344",
+                "raw_material_description": "recycled polyester ",
+                "raw_material_id": "raw_mat#1",
+                "raw_material_proportion": "100%",
+                "raw_material_tier_3_factory_country": "CN",
+                "raw_material_tier_4_factory_country": "CN"
+              }
+            }
+          }
+        ],
+        "norm": "LINING",
+        "process_steps": [
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "TEXTILE_FORMATION/WEAVING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "PREPARATION/SYNTHETIC_FIBERS",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "COLORATION/DYEING/SYNTHETIC_FIBERS",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/WASHING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/HEAT_SETTING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/PAD_DRY_CURE",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/SOFTENING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": null,
+            "manufacturing_year": null,
+            "norm": "FINISHING/THERMOFIXING",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          },
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": 20,
+              "raw": null
+            },
+            "manufacturing_year": null,
+            "norm": "ASSEMBLY/GENERIC",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          }
+        ],
+        "process_steps_blueprint": "MATERIALS/GENERIC/SYNTHETIC_FIBERS+COMPONENTS/GENERIC",
+        "proportion": {
+          "context": {
+            "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+            "rule": null,
+            "source": "DATA_SOURCE",
+            "updated_at": null
+          },
+          "norm": 17,
+          "raw": null
+        },
+        "raw": null
+      },
+      {
+        "account_taxonomy": {},
+        "material_trademark": null,
+        "materials": [
+          {
+            "category": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": "PAPER_AND_CARDBOARD/CARDBOARD",
+              "raw": "cardboard "
+            },
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "CN",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "CN",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "RAW_MATERIALS",
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "RAW_MATERIALS/PAPER_AND_CARDBOARD",
+            "proportion": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": 100,
+              "raw": null
+            },
+            "record": {
+              "data_sources": [],
+              "raw": {
+                "component_count": 1,
+                "component_id": "comp#2",
+                "component_mass": "28.0 grams",
+                "placement": "stiffener ",
+                "product_sku": "2816736344",
+                "raw_material_description": "cardboard ",
+                "raw_material_id": "raw_mat#1",
+                "raw_material_proportion": "100%",
+                "raw_material_tier_3_factory_country": "CN",
+                "raw_material_tier_4_factory_country": "CN"
+              }
+            }
+          }
+        ],
+        "norm": "INTERLINING",
+        "process_steps": [
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": 20,
+              "raw": null
+            },
+            "manufacturing_year": null,
+            "norm": "ASSEMBLY/GENERIC",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          }
+        ],
+        "process_steps_blueprint": "MATERIALS/GENERIC/PAPER_AND_CARDBOARD+COMPONENTS/GENERIC",
+        "proportion": {
+          "context": {
+            "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+            "rule": null,
+            "source": "DATA_SOURCE",
+            "updated_at": null
+          },
+          "norm": 14,
+          "raw": null
+        },
+        "raw": null
+      },
+      {
+        "account_taxonomy": {},
+        "material_trademark": null,
+        "materials": [
+          {
+            "category": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": "METAL/NICKEL",
+              "raw": "nickel "
+            },
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "CN",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "CN",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "END_TO_END",
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "RAW_MATERIALS/METAL",
+            "proportion": {
+              "context": {
+                "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+                "rule": null,
+                "source": "DATA_SOURCE",
+                "updated_at": null
+              },
+              "norm": 100,
+              "raw": null
+            },
+            "record": {
+              "data_sources": [],
+              "raw": {
+                "component_count": 1,
+                "component_id": "comp#4",
+                "component_mass": "2.0 grams",
+                "placement": "accessories ",
+                "product_sku": "2816736344",
+                "raw_material_description": "nickel ",
+                "raw_material_id": "raw_mat#1",
+                "raw_material_proportion": "100%",
+                "raw_material_tier_3_factory_country": "CN",
+                "raw_material_tier_4_factory_country": "CN"
+              }
+            }
+          }
+        ],
+        "norm": "TRIM",
+        "process_steps": [
+          {
+            "certificates": [],
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "dtex": null,
+            "factory_address": null,
+            "factory_country": "WORLD",
+            "factory_id": null,
+            "factory_latitude": null,
+            "factory_longitude": null,
+            "factory_name": null,
+            "gsm": null,
+            "location": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": "WORLD",
+              "raw": null
+            },
+            "loss_rate": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "norm": 0,
+              "raw": null
+            },
+            "manufacturing_year": null,
+            "norm": "ASSEMBLY/GENERIC",
+            "printing_surface_share": null,
+            "raw": null,
+            "record": null,
+            "transport": []
+          }
+        ],
+        "process_steps_blueprint": "MATERIALS/GENERIC/METAL+COMPONENTS/GENERIC",
+        "proportion": {
+          "context": {
+            "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+            "rule": null,
+            "source": "DATA_SOURCE",
+            "updated_at": null
+          },
+          "norm": 1,
+          "raw": null
+        },
+        "raw": null
+      }
+    ],
+    "couture_version": "v20260105-153232",
+    "distribution": {
+      "packaging": {
+        "components": [
+          {
+            "account_taxonomy": {},
+            "material_trademark": null,
+            "materials": [
+              {
+                "category": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "PLASTIC/POLYETHYLENE",
+                  "raw": "Polybag"
+                },
+                "process_steps": [
+                  {
+                    "certificates": [],
+                    "context": {
+                      "note": null,
+                      "rule": null,
+                      "source": "HEURISTIC",
+                      "updated_at": null
+                    },
+                    "dtex": null,
+                    "factory_address": null,
+                    "factory_country": "WORLD",
+                    "factory_id": null,
+                    "factory_latitude": null,
+                    "factory_longitude": null,
+                    "factory_name": null,
+                    "gsm": null,
+                    "location": {
+                      "context": {
+                        "note": null,
+                        "rule": null,
+                        "source": "HEURISTIC",
+                        "updated_at": null
+                      },
+                      "norm": "WORLD",
+                      "raw": null
+                    },
+                    "loss_rate": null,
+                    "manufacturing_year": null,
+                    "norm": "RAW_MATERIALS",
+                    "raw": null,
+                    "record": null,
+                    "transport": []
+                  }
+                ],
+                "process_steps_blueprint": "RAW_MATERIALS/PLASTIC",
+                "proportion": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": 100,
+                  "raw": null
+                },
+                "record": {
+                  "data_sources": [],
+                  "raw": {
+                    "component_id": "component#1",
+                    "component_mass": "20g",
+                    "placement": "Polybag",
+                    "product_sku": "2816736344",
+                    "raw_material_description": "Polybag",
+                    "raw_material_id": "raw_material#1",
+                    "raw_material_proportion": "100%"
+                  }
+                }
+              }
+            ],
+            "norm": "POLYBAG",
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "WORLD",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HEURISTIC",
+                    "updated_at": null
+                  },
+                  "norm": "WORLD",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "MIXING_AND_PREPARATION/PLASTIC_MIXING",
+                "printing_surface_share": null,
+                "raw": null,
+                "record": null,
+                "transport": []
+              },
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "WORLD",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HEURISTIC",
+                    "updated_at": null
+                  },
+                  "norm": "WORLD",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "MOLDING_AND_CURING/EXTRUSION/PLASTIC_FILM",
+                "printing_surface_share": null,
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "MATERIALS/GENERIC/PLASTIC+COMPONENTS/POLYBAG/PLASTIC/POLYETHYLENE",
+            "proportion": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HARD_CODING",
+                "updated_at": null
+              },
+              "norm": 9.090909090909092,
+              "raw": null
+            },
+            "raw": null
+          },
+          {
+            "account_taxonomy": {},
+            "material_trademark": null,
+            "materials": [
+              {
+                "category": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": "PAPER_AND_CARDBOARD/CARDBOARD",
+                  "raw": "cardboard"
+                },
+                "process_steps": [
+                  {
+                    "certificates": [],
+                    "context": {
+                      "note": null,
+                      "rule": null,
+                      "source": "HEURISTIC",
+                      "updated_at": null
+                    },
+                    "dtex": null,
+                    "factory_address": null,
+                    "factory_country": "WORLD",
+                    "factory_id": null,
+                    "factory_latitude": null,
+                    "factory_longitude": null,
+                    "factory_name": null,
+                    "gsm": null,
+                    "location": {
+                      "context": {
+                        "note": null,
+                        "rule": null,
+                        "source": "HEURISTIC",
+                        "updated_at": null
+                      },
+                      "norm": "WORLD",
+                      "raw": null
+                    },
+                    "loss_rate": null,
+                    "manufacturing_year": null,
+                    "norm": "RAW_MATERIALS",
+                    "raw": null,
+                    "record": null,
+                    "transport": []
+                  }
+                ],
+                "process_steps_blueprint": "RAW_MATERIALS/PAPER_AND_CARDBOARD",
+                "proportion": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HARD_CODING",
+                    "updated_at": null
+                  },
+                  "norm": 100,
+                  "raw": null
+                },
+                "record": {
+                  "data_sources": [],
+                  "raw": {
+                    "component_id": "component#2",
+                    "component_mass": "200g",
+                    "placement": "cardboard",
+                    "product_sku": "2816736344",
+                    "raw_material_description": "cardboard",
+                    "raw_material_id": "raw_material#1",
+                    "raw_material_proportion": "100%"
+                  }
+                }
+              }
+            ],
+            "norm": "CARDBOARD",
+            "process_steps": [
+              {
+                "certificates": [],
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "dtex": null,
+                "factory_address": null,
+                "factory_country": "WORLD",
+                "factory_id": null,
+                "factory_latitude": null,
+                "factory_longitude": null,
+                "factory_name": null,
+                "gsm": null,
+                "location": {
+                  "context": {
+                    "note": null,
+                    "rule": null,
+                    "source": "HEURISTIC",
+                    "updated_at": null
+                  },
+                  "norm": "WORLD",
+                  "raw": null
+                },
+                "loss_rate": null,
+                "manufacturing_year": null,
+                "norm": "ASSEMBLY/GENERIC",
+                "printing_surface_share": null,
+                "raw": null,
+                "record": null,
+                "transport": []
+              }
+            ],
+            "process_steps_blueprint": "MATERIALS/GENERIC/PAPER_AND_CARDBOARD+COMPONENTS/GENERIC",
+            "proportion": {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HARD_CODING",
+                "updated_at": null
+              },
+              "norm": 90.9090909090909,
+              "raw": null
+            },
+            "raw": null
+          }
+        ],
+        "weight": {
+          "context": {
+            "note": null,
+            "rule": null,
+            "source": "HARD_CODING",
+            "updated_at": null
+          },
+          "norm": 220,
+          "raw": null,
+          "unit": "g"
+        }
+      },
+      "transport_scenarios": [
+        {
+          "probability": {
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "norm": 12.82,
+            "raw": null
+          },
+          "sequence": [
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 1000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "TRUCK",
+              "raw": null
+            },
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 10000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "AIRPLANE",
+              "raw": null
+            }
+          ]
+        },
+        {
+          "probability": {
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "norm": 84.62,
+            "raw": null
+          },
+          "sequence": [
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 1000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "TRUCK",
+              "raw": null
+            },
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 18000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "CONTAINER_SHIP",
+              "raw": null
+            }
+          ]
+        },
+        {
+          "probability": {
+            "context": {
+              "note": null,
+              "rule": null,
+              "source": "HEURISTIC",
+              "updated_at": null
+            },
+            "norm": 2.56,
+            "raw": null
+          },
+          "sequence": [
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 1000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "TRUCK",
+              "raw": null
+            },
+            {
+              "context": {
+                "note": null,
+                "rule": null,
+                "source": "HEURISTIC",
+                "updated_at": null
+              },
+              "distance": {
+                "context": {
+                  "note": null,
+                  "rule": null,
+                  "source": "HEURISTIC",
+                  "updated_at": null
+                },
+                "norm": 10000,
+                "raw": null
+              },
+              "distance_unit": "km",
+              "norm": "TRAIN",
+              "raw": null
+            }
+          ]
+        }
+      ]
+    },
+    "ecobalyse": {
+      "errors": [
+        "Ecobalyse does not handle products with category : BAG/SMALL"
+      ],
+      "success": false
+    },
+    "efs_generation_id": "20251222092640888",
+    "forecasted_purchase_orders": [],
+    "image_url": null,
+    "is_upcycled": null,
+    "lca_engine_version": "18",
+    "measurement_couture_version": "v20260105-154917",
+    "measurement_errors": [],
+    "metadata": {},
+    "name": "Small bag",
+    "norm": "BAG/SMALL",
+    "pack_size": {
+      "context": {
+        "note": null,
+        "rule": null,
+        "source": "UNKNOWN",
+        "updated_at": null
+      },
+      "norm": 1,
+      "raw": null
+    },
+    "period": "2020",
+    "process_activities": [
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2,
+            "min": 0.2,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.2,
+            "min": 0.2,
+            "unit": "kg"
+          }
+        },
+        "path": ["process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": "supplier-c",
+          "gsm": null,
+          "location": {
+            "code": "CN",
+            "type": "COUNTRY"
+          },
+          "period": "2020",
+          "processStep": "ASSEMBLY/GENERIC",
+          "productCategory": "BAG/SMALL",
+          "type": "PRODUCT_PROCESS_STEP"
+        },
+        "processType": "PRODUCT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.17,
+            "min": 0.17,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 20,
+            "min": 20
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.136,
+            "min": 0.136,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 0, "process_steps", 4],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "OUTER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "ASSEMBLY/GENERIC",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.17,
+            "min": 0.17,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.17,
+            "min": 0.17,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 0, "process_steps", 3],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "OUTER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING_AND_TRIMMING/LEATHER",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.17,
+            "min": 0.17,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.17,
+            "min": 0.17,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 0, "process_steps", 2],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "OUTER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "POST_TANNING/CHROME_BASED",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.17,
+            "min": 0.17,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.17,
+            "min": 0.17,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 0, "process_steps", 1],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "OUTER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "TANNING/CHROME_BASED",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.17,
+            "min": 0.17,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.17,
+            "min": 0.17,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 0, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "OUTER",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "BEAMHOUSE_PREPARATION",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.544,
+            "min": 0.544,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 0, "materials", 0, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "IT",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "LEATHER/BOVINE/COW",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.544,
+            "min": 0.544,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 68.75,
+            "min": 68.75
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.17,
+            "min": 0.17,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 0, "materials", 0, "process_steps", 1],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "IT",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "LEATHER/BOVINE/COW",
+          "period": "2020",
+          "processStep": "SLAUGHTERING",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 20,
+            "min": 20
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.034,
+            "min": 0.034,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 8],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LINING",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "ASSEMBLY/GENERIC",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 7],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LINING",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/THERMOFIXING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 6],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LINING",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/SOFTENING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 5],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LINING",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/PAD_DRY_CURE",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 4],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LINING",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/HEAT_SETTING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 3],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LINING",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "FINISHING/WASHING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.04641000000000001,
+            "min": 0.0433075,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 8.424908424908429,
+            "min": 1.8645731108930197
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.0425,
+            "min": 0.0425,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 2],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LINING",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "COLORATION/DYEING/SYNTHETIC_FIBERS",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.04641000000000001,
+            "min": 0.0433075,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.04641000000000001,
+            "min": 0.0433075,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 1],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LINING",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "PREPARATION/SYNTHETIC_FIBERS",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.04873050000000001,
+            "min": 0.045472875,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 4.761904761904767,
+            "min": 4.761904761904767
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.04641000000000001,
+            "min": 0.0433075,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "LINING",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "TEXTILE_FORMATION/WEAVING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.05019241500000001,
+            "min": 0.04683706125,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "materials", 0, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "CN",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "SYNTHETIC_FIBERS/POLYESTER/RECYCLED",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.05019241500000001,
+            "min": 0.04683706125,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 2.9126213592232997,
+            "min": 2.9126213592232997
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.04873050000000001,
+            "min": 0.045472875,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 1, "materials", 0, "process_steps", 1],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "CN",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "SYNTHETIC_FIBERS/POLYESTER/RECYCLED",
+          "period": "2020",
+          "processStep": "YARN_FORMATION/EXTRUSION_AND_MELT_SPINNING",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.035,
+            "min": 0.035,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 20,
+            "min": 20
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.028000000000000004,
+            "min": 0.028000000000000004,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 2, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "INTERLINING",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "ASSEMBLY/GENERIC",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.035,
+            "min": 0.035,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 2, "materials", 0, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "CN",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "PAPER_AND_CARDBOARD/CARDBOARD",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.002,
+            "min": 0.002,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.002,
+            "min": 0.002,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "TRIM",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "ASSEMBLY/GENERIC",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.002,
+            "min": 0.002,
+            "unit": "kg"
+          }
+        },
+        "path": ["components", 3, "materials", 0, "process_steps", 0],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": "CN",
+            "type": "COUNTRY"
+          },
+          "materialCategory": "METAL/NICKEL",
+          "period": "2020",
+          "processStep": "END_TO_END",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.020499999999999997,
+            "min": 0.020499999999999997,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 2.4390243902438935,
+            "min": 2.4390243902438935
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.02,
+            "min": 0.02,
+            "unit": "kg"
+          }
+        },
+        "path": [
+          "distribution",
+          "packaging",
+          "components",
+          0,
+          "process_steps",
+          1
+        ],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "POLYBAG",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "MOLDING_AND_CURING/EXTRUSION/PLASTIC_FILM",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.020499999999999997,
+            "min": 0.020499999999999997,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.020499999999999997,
+            "min": 0.020499999999999997,
+            "unit": "kg"
+          }
+        },
+        "path": [
+          "distribution",
+          "packaging",
+          "components",
+          0,
+          "process_steps",
+          0
+        ],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "POLYBAG",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "MIXING_AND_PREPARATION/PLASTIC_MIXING",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.020499999999999997,
+            "min": 0.020499999999999997,
+            "unit": "kg"
+          }
+        },
+        "path": [
+          "distribution",
+          "packaging",
+          "components",
+          0,
+          "materials",
+          0,
+          "process_steps",
+          0
+        ],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "materialCategory": "PLASTIC/POLYETHYLENE",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.19999999999999998,
+            "min": 0.19999999999999998,
+            "unit": "kg"
+          }
+        },
+        "lossRate": {
+          "isUnknown": false,
+          "percentage": {
+            "max": 0,
+            "min": 0
+          }
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.19999999999999998,
+            "min": 0.19999999999999998,
+            "unit": "kg"
+          }
+        },
+        "path": [
+          "distribution",
+          "packaging",
+          "components",
+          1,
+          "process_steps",
+          0
+        ],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "componentCategory": "CARDBOARD",
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "printingSurfaceShare": null,
+          "processStep": "ASSEMBLY/GENERIC",
+          "type": "COMPONENT_PROCESS_STEP"
+        },
+        "processType": "COMPONENT_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "isUnknown": true,
+          "quantity": null,
+          "reason": "ENTRY_POINT"
+        },
+        "lossRate": {
+          "isUnknown": true,
+          "reason": "PROCESS_IS_ENTRYPOINT"
+        },
+        "output": {
+          "isUnknown": false,
+          "quantity": {
+            "max": 0.19999999999999998,
+            "min": 0.19999999999999998,
+            "unit": "kg"
+          }
+        },
+        "path": [
+          "distribution",
+          "packaging",
+          "components",
+          1,
+          "materials",
+          0,
+          "process_steps",
+          0
+        ],
+        "probabilityPercentage": 100,
+        "process": {
+          "certificates": [],
+          "dtex": null,
+          "factoryName": null,
+          "gsm": null,
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "materialCategory": "PAPER_AND_CARDBOARD/CARDBOARD",
+          "period": "2020",
+          "processStep": "RAW_MATERIALS",
+          "type": "MATERIAL_PROCESS_STEP"
+        },
+        "processType": "MATERIAL_PROCESS_STEP"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 0, "sequence", 0],
+        "probabilityPercentage": 12.82,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "TRUCK",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 1000,
+          "min": 1000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.00042000000000000007,
+          "min": 0.00042000000000000007,
+          "unit": "t"
+        }
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 0, "sequence", 1],
+        "probabilityPercentage": 12.82,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "AIRPLANE",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 10000,
+          "min": 10000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.00042000000000000007,
+          "min": 0.00042000000000000007,
+          "unit": "t"
+        }
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 1, "sequence", 0],
+        "probabilityPercentage": 84.62,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "TRUCK",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 1000,
+          "min": 1000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.00042000000000000007,
+          "min": 0.00042000000000000007,
+          "unit": "t"
+        }
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 1, "sequence", 1],
+        "probabilityPercentage": 84.62,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "CONTAINER_SHIP",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 18000,
+          "min": 18000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.00042000000000000007,
+          "min": 0.00042000000000000007,
+          "unit": "t"
+        }
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 2, "sequence", 0],
+        "probabilityPercentage": 2.56,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "TRUCK",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 1000,
+          "min": 1000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.00042000000000000007,
+          "min": 0.00042000000000000007,
+          "unit": "t"
+        }
+      },
+      {
+        "functionalUnitsCount": 1,
+        "path": ["distribution", "transport_scenarios", 2, "sequence", 1],
+        "probabilityPercentage": 2.56,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "period": "2020",
+          "transportType": "TRAIN",
+          "type": "TRANSPORT"
+        },
+        "processType": "TRANSPORT",
+        "transportDistance": {
+          "max": 10000,
+          "min": 10000,
+          "unit": "km"
+        },
+        "transportedQuantity": {
+          "max": 0.00042000000000000007,
+          "min": 0.00042000000000000007,
+          "unit": "t"
+        }
+      },
+      {
+        "durationOfService": null,
+        "functionalUnitsCount": 1,
+        "input": {
+          "max": 0.2,
+          "min": 0.2,
+          "unit": "kg"
+        },
+        "output": {
+          "max": 0.2,
+          "min": 0.2,
+          "unit": "kg"
+        },
+        "path": ["use"],
+        "probabilityPercentage": 100,
+        "process": {
+          "context": "PEFCR_EU",
+          "location": {
+            "code": "EU",
+            "type": "CONTINENT"
+          },
+          "period": "2020",
+          "productCategory": "NO_MATCH",
+          "type": "USE"
+        },
+        "processType": "USE"
+      },
+      {
+        "functionalUnitsCount": 1,
+        "input": {
+          "max": 0.2,
+          "min": 0.2,
+          "unit": "kg"
+        },
+        "path": ["end_of_life"],
+        "probabilityPercentage": 100,
+        "process": {
+          "location": {
+            "code": null,
+            "type": "WORLD"
+          },
+          "materialFamily": "ANY",
+          "period": "2020",
+          "treatment": "GENERIC",
+          "type": "END_OF_LIFE"
+        },
+        "processType": "END_OF_LIFE"
+      }
+    ],
+    "process_steps": [
+      {
+        "certificates": [],
+        "context": {
+          "note": null,
+          "rule": null,
+          "source": "HEURISTIC",
+          "updated_at": null
+        },
+        "dtex": null,
+        "factory_address": null,
+        "factory_country": "CN",
+        "factory_id": "supplier-c",
+        "factory_latitude": null,
+        "factory_longitude": null,
+        "factory_name": "supplier-c",
+        "gsm": null,
+        "location": {
+          "context": {
+            "note": null,
+            "rule": null,
+            "source": "DATA_SOURCE",
+            "updated_at": null
+          },
+          "norm": "CN",
+          "raw": null
+        },
+        "loss_rate": {
+          "context": {
+            "note": null,
+            "rule": null,
+            "source": "HEURISTIC",
+            "updated_at": null
+          },
+          "norm": 0,
+          "raw": null
+        },
+        "manufacturing_year": null,
+        "norm": "ASSEMBLY/GENERIC",
+        "raw": null,
+        "record": null,
+        "transport": []
+      }
+    ],
+    "process_steps_blueprint": "PRODUCTS/BAG",
+    "product_size": null,
+    "product_sku": "2816736344",
+    "raw": null,
+    "record": {
+      "data_sources": [],
+      "raw": {
+        "barcode": "1521929251139",
+        "brand_name": "Coyote Denim",
+        "care_label": "outer 68%: 100% leather (italy); stiffener 14%: 100% cardboard (china); lining 17%: 100% recycled polyester (china); accessories 1%: 100% nickel (china)",
+        "category": "bag/small",
+        "mass": "200g",
+        "name": "Small bag",
+        "product_sku": "2816736344",
+        "source_filename": "Demo Dataset.xlsx",
+        "source_sheet": "demo data"
+      }
+    },
+    "representative_product_identifier": "BAG/SMALL",
+    "retail_price_eur": null,
+    "sales": [],
+    "schema_version": "7C",
+    "sex": null,
+    "specific_duration_of_service": null,
+    "specific_duration_of_service_calculation": null,
+    "t1_factory_id": "supplier-c",
+    "weight": {
+      "context": {
+        "note": "Source: DEMO/Demo Dataset.xlsx — Sheet: demo data — Row: 14",
+        "rule": null,
+        "source": "DATA_SOURCE",
+        "updated_at": null
+      },
+      "norm": 200,
+      "raw": null,
+      "unit": "g"
+    }
+  },
+  "issues": [],
+  "insights": {
+    "IOR": {
+      "total": {
+        "averageImpact": 0.290693774,
+        "averageWeight": 200,
+        "totalImpact": 9867.890852204,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 0.290693774
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 0.290693774,
+          "averageWeight": 200,
+          "totalImpact": 389.52965716,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 0.290693774,
+          "averageWeight": 200,
+          "totalImpact": 2428.165094222,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 0.290693774,
+          "averageWeight": 200,
+          "totalImpact": 1314.226552254,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 0.290693774,
+          "averageWeight": 200,
+          "totalImpact": 1984.857088872,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 0.290693774,
+          "averageWeight": 200,
+          "totalImpact": 1786.31324123,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 0.290693774,
+          "averageWeight": 200,
+          "totalImpact": 1964.799218466,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 0.05508428
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 0.167165223
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 0.063224237
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 0.005220034
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "PEF": {
+      "total": {
+        "averageImpact": 1937.521848212,
+        "averageWeight": 200,
+        "totalImpact": 65771116.65939032,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 1937.521848212
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 1936.255998401,
+          "averageWeight": 200,
+          "totalImpact": 2594583.03785734,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 1936.255998401,
+          "averageWeight": 200,
+          "totalImpact": 16173546.354643553,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 1936.255998401,
+          "averageWeight": 200,
+          "totalImpact": 8753813.368770922,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 1936.255998401,
+          "averageWeight": 200,
+          "totalImpact": 13220755.957082028,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 1935.00718159,
+          "averageWeight": 200,
+          "totalImpact": 11890619.13087055,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 1943.74889927,
+          "averageWeight": 200,
+          "totalImpact": 13137798.81016593,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 1499.545801259
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 357.894381954
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 28.811513137
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 44.857141576
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 6.413010287
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "LDU": {
+      "total": {
+        "averageImpact": 1165.549995611,
+        "averageWeight": 200,
+        "totalImpact": 39565760.151011005,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 1165.549995611
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 1165.549995611,
+          "averageWeight": 200,
+          "totalImpact": 1561836.99411874,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 1165.549995611,
+          "averageWeight": 200,
+          "totalImpact": 9735839.113338683,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 1165.549995611,
+          "averageWeight": 200,
+          "totalImpact": 5269451.530157331,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 1165.549995611,
+          "averageWeight": 200,
+          "totalImpact": 7958375.370031908,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 1165.549995611,
+          "averageWeight": 200,
+          "totalImpact": 7162304.723029595,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 1165.549995611,
+          "averageWeight": 200,
+          "totalImpact": 7877952.420334749,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 1155.600120491
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 8.408700639
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 1.190534462
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 0.350640018
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "HTN": {
+      "total": {
+        "averageImpact": 0.000006352,
+        "averageWeight": 200,
+        "totalImpact": 0.215624992,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 0.000006352
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 0.000006352,
+          "averageWeight": 200,
+          "totalImpact": 0.00851168,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 0.000006352,
+          "averageWeight": 200,
+          "totalImpact": 0.053058256,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 0.000006352,
+          "averageWeight": 200,
+          "totalImpact": 0.028717392,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 0.000006352,
+          "averageWeight": 200,
+          "totalImpact": 0.043371456,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 0.000006352,
+          "averageWeight": 200,
+          "totalImpact": 0.03903304,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 0.000006352,
+          "averageWeight": 200,
+          "totalImpact": 0.042933168,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 0.000006286
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 6.1e-8
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 3e-9
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 2e-9
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "SWE": {
+      "total": {
+        "averageImpact": 0.038388873,
+        "averageWeight": 200,
+        "totalImpact": 1303.148682858,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 0.038388873
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 0.038388873,
+          "averageWeight": 200,
+          "totalImpact": 51.44108982,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 0.038388873,
+          "averageWeight": 200,
+          "totalImpact": 320.662256169,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 0.038388873,
+          "averageWeight": 200,
+          "totalImpact": 173.556094833,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 0.038388873,
+          "averageWeight": 200,
+          "totalImpact": 262.119224844,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 0.038388873,
+          "averageWeight": 200,
+          "totalImpact": 235.899624585,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 0.038388873,
+          "averageWeight": 200,
+          "totalImpact": 259.470392607,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 0.03365477
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 0.002790046
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 0.000582426
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 0.001361629
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "MRU": {
+      "total": {
+        "averageImpact": 0.000121502,
+        "averageWeight": 200,
+        "totalImpact": 4.124506892,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 0.000121502
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 0.000121502,
+          "averageWeight": 200,
+          "totalImpact": 0.16281268,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 0.000121502,
+          "averageWeight": 200,
+          "totalImpact": 1.014906206,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 0.000121502,
+          "averageWeight": 200,
+          "totalImpact": 0.549310542,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 0.000121502,
+          "averageWeight": 200,
+          "totalImpact": 0.829615656,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 0.000121502,
+          "averageWeight": 200,
+          "totalImpact": 0.74662979,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 0.000121502,
+          "averageWeight": 200,
+          "totalImpact": 0.821232018,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 0.000052605
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 0.000068315
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 4.86e-7
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 9.6e-8
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "WTU": {
+      "total": {
+        "averageImpact": 2.779440965,
+        "averageWeight": 200,
+        "totalImpact": 94350.90299789,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 2.779440965
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 2.779440965,
+          "averageWeight": 200,
+          "totalImpact": 3724.4508931,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 2.779440965,
+          "averageWeight": 200,
+          "totalImpact": 23216.670380645,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 2.779440965,
+          "averageWeight": 200,
+          "totalImpact": 12565.852602765,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 2.779440965,
+          "averageWeight": 200,
+          "totalImpact": 18978.02290902,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 2.779440965,
+          "averageWeight": 200,
+          "totalImpact": 17079.664729925,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 2.779440965,
+          "averageWeight": 200,
+          "totalImpact": 18786.241482435,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 1.335836076
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 1.201046249
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 0.236509923
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 0.006048716
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "HTC": {
+      "total": {
+        "averageImpact": 5.6e-8,
+        "averageWeight": 200,
+        "totalImpact": 0.001900976,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 5.6e-8
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.00007504,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.000467768,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.000253176,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.000382368,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.00034412,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.000378504,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 3.3e-8
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 2.3e-8
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 1e-9
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 0
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "ACD": {
+      "total": {
+        "averageImpact": 0.058225913,
+        "averageWeight": 200,
+        "totalImpact": 1976.536842698,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 0.058225913
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 0.058225913,
+          "averageWeight": 200,
+          "totalImpact": 78.02272342,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 0.058225913,
+          "averageWeight": 200,
+          "totalImpact": 486.361051289,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 0.058225913,
+          "averageWeight": 200,
+          "totalImpact": 263.239352673,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 0.058225913,
+          "averageWeight": 200,
+          "totalImpact": 397.566533964,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 0.058225913,
+          "averageWeight": 200,
+          "totalImpact": 357.798235385,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 0.058225913,
+          "averageWeight": 200,
+          "totalImpact": 393.548945967,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 0.035281943
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 0.016635819
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 0.00235201
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 0.003956141
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "ETF": {
+      "total": {
+        "averageImpact": 125.502620372,
+        "averageWeight": 200,
+        "totalImpact": 4260311.951147912,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 125.502620372
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 125.502620372,
+          "averageWeight": 200,
+          "totalImpact": 168173.51129848,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 125.502620372,
+          "averageWeight": 200,
+          "totalImpact": 1048323.387967316,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 125.502620372,
+          "averageWeight": 200,
+          "totalImpact": 567397.346701812,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 125.502620372,
+          "averageWeight": 200,
+          "totalImpact": 856931.891900016,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 125.502620372,
+          "averageWeight": 200,
+          "totalImpact": 771213.60218594,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 125.502620372,
+          "averageWeight": 200,
+          "totalImpact": 848272.211094348,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 71.040708737
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 47.027878638
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 1.385016433
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 6.049016564
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "PCO": {
+      "total": {
+        "averageImpact": 0.020910769,
+        "averageWeight": 200,
+        "totalImpact": 709.836964474,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 0.020910769
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 0.020910769,
+          "averageWeight": 200,
+          "totalImpact": 28.02043046,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 0.020910769,
+          "averageWeight": 200,
+          "totalImpact": 174.667653457,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 0.020910769,
+          "averageWeight": 200,
+          "totalImpact": 94.537586649,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 0.020910769,
+          "averageWeight": 200,
+          "totalImpact": 142.778730732,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 0.020910769,
+          "averageWeight": 200,
+          "totalImpact": 128.496675505,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 0.020910769,
+          "averageWeight": 200,
+          "totalImpact": 141.335887671,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 0.006907344
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 0.008944108
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 0.001378853
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 0.003680464
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "TRE": {
+      "total": {
+        "averageImpact": 0.189015043,
+        "averageWeight": 200,
+        "totalImpact": 6416.304649678,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 0.189015043
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 0.189015043,
+          "averageWeight": 200,
+          "totalImpact": 253.28015762,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 0.189015043,
+          "averageWeight": 200,
+          "totalImpact": 1578.842654179,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 0.189015043,
+          "averageWeight": 200,
+          "totalImpact": 854.537009403,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 0.189015043,
+          "averageWeight": 200,
+          "totalImpact": 1290.594713604,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 0.189015043,
+          "averageWeight": 200,
+          "totalImpact": 1161.497439235,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 0.189015043,
+          "averageWeight": 200,
+          "totalImpact": 1277.552675637,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 0.140639175
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 0.028563076
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 0.004905123
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 0.014907668
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "FRU": {
+      "total": {
+        "averageImpact": 61.746356466,
+        "averageWeight": 200,
+        "totalImpact": 2096041.816594836,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 61.746356466
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 61.746356466,
+          "averageWeight": 200,
+          "totalImpact": 82740.11766444,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 61.746356466,
+          "averageWeight": 200,
+          "totalImpact": 515767.315560498,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 61.746356466,
+          "averageWeight": 200,
+          "totalImpact": 279155.277582786,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 61.746356466,
+          "averageWeight": 200,
+          "totalImpact": 421604.121949848,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 61.746356466,
+          "averageWeight": 200,
+          "totalImpact": 379431.36048357,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 61.746356466,
+          "averageWeight": 200,
+          "totalImpact": 417343.623353694,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 13.304024345
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 35.937470122
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 6.05276001
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 6.452101988
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "GHG": {
+      "total": {
+        "averageImpact": 8.715650817,
+        "averageWeight": 200,
+        "totalImpact": 295861.482619188,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 8.715650817
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 8.670251629,
+          "averageWeight": 200,
+          "totalImpact": 11618.13718286,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 8.670251629,
+          "averageWeight": 200,
+          "totalImpact": 72422.611857037,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 8.670251629,
+          "averageWeight": 200,
+          "totalImpact": 39198.207614709,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 8.670251629,
+          "averageWeight": 200,
+          "totalImpact": 59200.478122812,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 8.625463323,
+          "averageWeight": 200,
+          "totalImpact": 53003.472119835,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 8.938981465,
+          "averageWeight": 200,
+          "totalImpact": 60418.575721935,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 5.409474617
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 2.475210273
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 0.119501578
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 0.481464349
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0.23
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "FWE": {
+      "total": {
+        "averageImpact": 0.001674023,
+        "averageWeight": 200,
+        "totalImpact": 56.826384758,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 0.001674023
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 0.001674023,
+          "averageWeight": 200,
+          "totalImpact": 2.24319082,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 0.001674023,
+          "averageWeight": 200,
+          "totalImpact": 13.983114119,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 0.001674023,
+          "averageWeight": 200,
+          "totalImpact": 7.568257983,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 0.001674023,
+          "averageWeight": 200,
+          "totalImpact": 11.430229044,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 0.001674023,
+          "averageWeight": 200,
+          "totalImpact": 10.286871335,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 0.001674023,
+          "averageWeight": 200,
+          "totalImpact": 11.314721457,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 0.000655559
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 0.000811599
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 0.000205443
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 0.000001422
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "OZD": {
+      "total": {
+        "averageImpact": 5.6e-8,
+        "averageWeight": 200,
+        "totalImpact": 0.001900976,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 5.6e-8
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.00007504,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.000467768,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.000253176,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.000382368,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.00034412,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 5.6e-8,
+          "averageWeight": 200,
+          "totalImpact": 0.000378504,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 8e-9
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 4.3e-8
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 4e-9
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 0
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    },
+    "PMA": {
+      "total": {
+        "averageImpact": 6.51e-7,
+        "averageWeight": 200,
+        "totalImpact": 0.022098846,
+        "totalWeight": 200,
+        "totalAmount": 33946
+      },
+      "category": {
+        "averageImpact": 6.51e-7
+      },
+      "byYear": [
+        {
+          "year": 2020,
+          "averageImpact": 6.51e-7,
+          "averageWeight": 200,
+          "totalImpact": 0.00087234,
+          "totalWeight": 200,
+          "totalAmount": 1340
+        },
+        {
+          "year": 2021,
+          "averageImpact": 6.51e-7,
+          "averageWeight": 200,
+          "totalImpact": 0.005437803,
+          "totalWeight": 200,
+          "totalAmount": 8353
+        },
+        {
+          "year": 2022,
+          "averageImpact": 6.51e-7,
+          "averageWeight": 200,
+          "totalImpact": 0.002943171,
+          "totalWeight": 200,
+          "totalAmount": 4521
+        },
+        {
+          "year": 2023,
+          "averageImpact": 6.51e-7,
+          "averageWeight": 200,
+          "totalImpact": 0.004445028,
+          "totalWeight": 200,
+          "totalAmount": 6828
+        },
+        {
+          "year": 2024,
+          "averageImpact": 6.51e-7,
+          "averageWeight": 200,
+          "totalImpact": 0.004000395,
+          "totalWeight": 200,
+          "totalAmount": 6145
+        },
+        {
+          "year": 2025,
+          "averageImpact": 6.51e-7,
+          "averageWeight": 200,
+          "totalImpact": 0.004400109,
+          "totalWeight": 200,
+          "totalAmount": 6759
+        }
+      ],
+      "byStage": [
+        {
+          "stage": "RAW_MATERIALS",
+          "impact": 2.97e-7
+        },
+        {
+          "stage": "PROCESSING",
+          "impact": 2.91e-7
+        },
+        {
+          "stage": "ASSEMBLING",
+          "impact": 2.1e-8
+        },
+        {
+          "stage": "DISTRIBUTION",
+          "impact": 4.3e-8
+        },
+        {
+          "stage": "END_OF_LIFE",
+          "impact": 0
+        },
+        {
+          "stage": "USE",
+          "impact": 0
+        }
+      ]
+    }
+  },
+  "skus": [
+    {
+      "sku": "2816736344-supplier-c-2020",
+      "productSku": "2816736344",
+      "period": "2020",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-c",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 8.670251629,
+        "PEF": 1936.255998401
+      }
+    },
+    {
+      "sku": "2816736344-supplier-c-2025",
+      "productSku": "2816736344",
+      "period": "2025",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-c",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 8.938981465,
+        "PEF": 1943.74889927
+      }
+    },
+    {
+      "sku": "2816736344-supplier-c-2022",
+      "productSku": "2816736344",
+      "period": "2022",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-c",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 8.670251629,
+        "PEF": 1936.255998401
+      }
+    },
+    {
+      "sku": "2816736344-supplier-c-2024",
+      "productSku": "2816736344",
+      "period": "2024",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-c",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 8.625463323,
+        "PEF": 1935.00718159
+      }
+    },
+    {
+      "sku": "2816736344-supplier-c-2023",
+      "productSku": "2816736344",
+      "period": "2023",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-c",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 8.670251629,
+        "PEF": 1936.255998401
+      }
+    },
+    {
+      "sku": "2816736344-supplier-c-2021",
+      "productSku": "2816736344",
+      "period": "2021",
+      "color": "Not provided",
+      "size": null,
+      "t1FactoryId": "supplier-c",
+      "isPeriodicCarbonverse": true,
+      "isInDevelopment": false,
+      "status": "MEASURED",
+      "isIncompleteOrIgnored": false,
+      "footprint": {
+        "GHG": 8.670251629,
+        "PEF": 1936.255998401
+      }
+    }
+  ],
+  "productCategory": "BAG/SMALL",
+  "availableIndicators": [
+    "ACD",
+    "ETF",
+    "FRU",
+    "FWE",
+    "GHG",
+    "HTC",
+    "HTN",
+    "IOR",
+    "LDU",
+    "MRU",
+    "OZD",
+    "PCO",
+    "PEF",
+    "PMA",
+    "SWE",
+    "TRE",
+    "WTU"
+  ],
+  "isCompliantECS": false
+}

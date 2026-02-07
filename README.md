@@ -1,53 +1,59 @@
-# Carbonfact
+# Carbonfact Product Viewer
 
-Stack used:
+A simple application to explore product carbon footprint data, displaying components, materials, and distribution information.
 
-- NextJS
-- NestJS
-- Prisma
-- sqlite
+## Tech Stack
 
-# Quick start
+- **Runtime**: Bun
+- **Backend**: Hono
+- **Frontend**: Vite + React
+- **Styling**: Tailwind CSS
+- **Linting**: Biome
 
-### Frontend
-
-```
-# install frontend dependencies
-cd apps/front
-npm install
-```
-
-### Backend
+## Project Structure
 
 ```
-# install backend dependencies
-cd apps/back
-npm install
-# Install & seed DB
-npx prisma db push && npx prisma db seed
+├── back/           # Hono API server
+├── front/          # React frontend
+├── shared/         # Shared TypeScript types
+└── data/           # Product JSON files
 ```
 
-### Frontend Execution
+## Getting Started
 
+### Prerequisites
+
+- [Bun](https://bun.sh/) (see `.bun-version`)
+
+### Installation
+
+```bash
+bun install
 ```
-cd apps/front && npm run dev
+
+### Development
+
+Start both backend and frontend:
+
+```bash
+bun run dev
 ```
 
-### Backend Execution
+Or run them separately:
 
+```bash
+bun run dev:back   # Backend on http://localhost:3001
+bun run dev:front  # Frontend on http://localhost:5173
 ```
-cd apps/back && npm run start:dev
+
+### Linting
+
+```bash
+bun run lint       # Check for issues
+bun run lint:fix   # Auto-fix issues
 ```
 
-Open `localhost:3000`
+## API Endpoints
 
-
-# Testing
-
-### Back Unit testing
-
-`npm run test`
-
-### Backend integration testing
-
-`npm run test:e2e`
+- `GET /api/products` - List all products (summary)
+- `GET /api/products/:id` - Get product details

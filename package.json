@@ -1,0 +1,16 @@
+{
+  "name": "carbonfact-bootstrap",
+  "private": true,
+  "workspaces": ["front", "back"],
+  "scripts": {
+    "dev": "bun run dev:back & bun run dev:front",
+    "dev:back": "cd back && bun run dev",
+    "dev:front": "cd front && bun run dev",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0"
+  }
+}
