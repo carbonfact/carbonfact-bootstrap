@@ -1,6 +1,6 @@
+import { readdir } from "node:fs/promises";
 import { Hono } from "hono";
 import { cors } from "hono/cors";
-import { readdir } from "node:fs/promises";
 import { getProduct } from "./transform";
 import type { RawProduct } from "./types";
 
