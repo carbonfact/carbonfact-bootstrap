@@ -1,6 +1,28 @@
 # Carbonfact Product Viewer
 
-A simple application to explore product carbon footprint data, displaying components, materials, and distribution information.
+A simple application to explore product carbon footprint data.
+
+## Data Model
+
+A **product** (e.g., a sneaker) is made of **components** (e.g., outsole, upper, laces). Each component is made of **materials** (e.g., rubber, viscose, polyester).
+
+Manufacturing a product involves **process steps** at every level. Materials go through extraction and preparation steps. Those materials are then transformed into components through processes like weaving, dyeing, and molding. Finally, components are assembled into the finished product. Each process step happens at a specific factory location.
+
+```
+Product (Sneaker)
+├── Process Steps → Assembly (Indonesia)
+└── Components
+    ├── Upper
+    │   ├── Process Steps → Textile Formation → Dyeing → Finishing → Assembly
+    │   └── Materials
+    │       └── Viscose
+    │           └── Process Steps → Raw Materials (Austria) → Yarn Spinning (Austria)
+    └── Outsole
+        ├── Process Steps → Compression Molding
+        └── Materials
+            └── Recycled Rubber
+                └── Process Steps → Raw Materials (Portugal)
+```
 
 ## Tech Stack
 

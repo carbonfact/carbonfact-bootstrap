@@ -33,7 +33,6 @@ export function getProduct(raw: RawProduct): Product {
       value: carbonverse.weight.norm,
       unit: carbonverse.weight.unit,
     },
-    processSteps: carbonverse.process_steps,
     distribution: {
       packagingWeight: {
         value: carbonverse.distribution.packaging.weight.norm,
@@ -46,11 +45,9 @@ export function getProduct(raw: RawProduct): Product {
     components: carbonverse.components.map((component) => ({
       name: component.norm,
       proportion: component.proportion.norm,
-      processSteps: component.process_steps,
       materials: component.materials.map((material) => ({
         name: material.category.norm,
         proportion: material.proportion.norm,
-        processSteps: material.process_steps,
       })),
     })),
   };

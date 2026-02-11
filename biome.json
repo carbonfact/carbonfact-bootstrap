@@ -21,6 +21,6 @@
     }
   },
   "files": {
-    "ignore": ["node_modules", "dist", "build", "bun.lockb"]
+    "ignore": ["node_modules", "dist", "build", ".vite", "bun.lockb"]
   }
 }

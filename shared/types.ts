@@ -3,14 +3,12 @@
 export interface Material {
   name: string;
   proportion: number;
-  processSteps: unknown[];
 }
 
 export interface Component {
   name: string;
   proportion: number;
   materials: Material[];
-  processSteps: unknown[];
 }
 
 export interface ProductSummary {
@@ -29,7 +27,6 @@ export interface TransportSummary {
 
 export interface Product extends ProductSummary {
   components: Component[];
-  processSteps: unknown[];
   distribution: {
     packagingWeight: { value: number; unit: string };
     transport: TransportSummary[];
